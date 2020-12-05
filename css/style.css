@@ -426,9 +426,10 @@ select #stateSelector{
 
 .heatmap-button{
     position: relative;
+    margin-top:4px;
     padding: 1px 4px 0px 4px;
     text-align: center;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     border: 1px solid white;
     cursor:pointer;
     background-color: white;

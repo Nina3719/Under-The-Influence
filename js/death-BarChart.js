@@ -305,7 +305,7 @@ class DeathFactorBarChart{
             vis.createDisplayData();
         }
 
-        console.log(vis.countryHelper);
+        // console.log(vis.countryHelper);
 
         //update HTML Text description
         let sum = 0;

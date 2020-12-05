@@ -155,8 +155,8 @@ class DeathFactorTimeline{
 
 		d3.select("#death-brush-hint")
 			.html(`
-					 <div style="font-size:18px;font-weight:700;font-style:italic;color: white;margin-left:50px;">
-                            <i class="fa fa-hand-pointer-o"></i>BRUSH IT!
+					 <div style="font-size:18px;font-weight:700;color: white;margin-left:50px;">
+                            <i class="fa fa-hand-pointer-o"></i> BRUSH IT
                      </div>
                  `)
 	}
@@ -166,8 +166,8 @@ class DeathFactorTimeline{
 
 		d3.select("#death-brush-hint")
 			.html(`
-					 <div style="font-size:18px;font-weight:700;font-style:italic;color:#5b4a3f;margin-left:50px;">
-                            <i class="fa fa-hand-pointer-o"></i>BRUSH IT!
+					 <div style="font-size:18px;font-weight:700;color:#5b4a3f;margin-left:50px;">
+                            <i class="fa fa-hand-pointer-o"></i> BRUSH IT
                      </div>
                  `)
 	}

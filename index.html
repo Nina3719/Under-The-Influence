@@ -173,32 +173,41 @@
 
     <div class="section-container">
         <div class="col-3">
-            <div style="height:50px"></div>
+
             <h4 data-aos="fade-in" data-aos-delay="100">Global Consumption</h4>
             <p class="text-left" data-aos="fade-in" data-aos-delay="100">
                 The visualization on the right shows global alcohol consumption (liter of pure
-                alcohol) per person in 2016.
+                alcohol) per person in 2016. The average consumption globally is 6.4 liters, as marked
+                in Chart 1.
                 <!--                To account for the differences in alcohol content of different-->
                 <!--                alcoholic drinks (e.g. beer, wine, spirits), this is reported in liters of pure-->
                 <!--                alcohol per-->
                 <!--                year.-->
-                <br><br>
-
-                <i class="fa fa-hand-pointer-o"></i>
-                <b>Explore the data and ranking by hovering over the map. </b>
+<!--                <br><br>-->
+<!--                <i class="fa fa-hand-pointer-o"></i>-->
+<!--                <b>Explore the data and ranking by hovering over the map. </b>-->
 
                 <br><br>
                 Why some contries have high consumption rate while others are remarkably low?
                 What's the commonalities among the countries?
                 <br><br>
                 <i class="fa fa-hand-pointer-o"></i>
-                <b>Hover the country names below and observe on the map.</b>
+                <b>Hover the country tabs below and observe on the map.</b>
                 <br><br>
-                Low Rate: <u id="iranbtn">Iran</u> <u id="libyabtn">Libya</u> <u id="indobtn">Indonesia</u>
+                Low Rate:
+                <button class='heatmap-button' id="iranbtn">Iran</button>
+                <button class='heatmap-button' id="egyptbtn">Egypt</button>
+                <button class='heatmap-button' id="indobtn">Indonesia</button>
+<!--                <u id="iranbtn">Iran</u> <u id="libyabtn">Libya</u> <u id="indobtn">Indonesia</u>-->
+<!--                <br>-->
                 <br>
-                High Rate: <u id="gerbtn">Germany</u> <u id="irelandbtn">Ireland</u> <u
-                    id="francebtn">France</u>
-                <br><br>
+                High Rate:
+                <button class='heatmap-button' id="gerbtn">Germany</button>
+                <button class='heatmap-button' id="irelandbtn">Ireland</button>
+                <button class='heatmap-button' id="francebtn">France</button>
+<!--                <u id="gerbtn">Germany</u> <u id="irelandbtn">Ireland</u> <u-->
+<!--                    id="francebtn">France</u>-->
+
 
 
             </p>
@@ -231,11 +240,11 @@
             </p>
             <select id='categorySelector' class="custom-select align-self-center"
                     onchange="categoryChange()" data-aos="fade-in" data-aos-delay="0">
-                <option value="total" selected>Chart 1 - Consumption per capita</option>
-                <option value="lastYear">Chart 2 - Drank last year</option>
-                <option value="heavyDrinking">Chart 2 - Heavy drinking in 30 days</option>
-                <option value="noDrinking">Chart 2 - No drinking in the past year</option>
-                <option value="neverDrinking">Chart 2 - Never drink alcohol</option>
+                <option value="total" selected>Default - Consumption per capita</option>
+                <option value="lastYear">Category - Drank last year</option>
+                <option value="heavyDrinking">Category - Heavy drinking in 30 days</option>
+                <option value="noDrinking">Category - No drinking in the past year</option>
+                <option value="neverDrinking">Category - Never drink alcohol</option>
             </select>
             <br><br>
             <i class="fa fa-hand-pointer-o" data-aos="fade-in" data-aos-delay="0"></i>
@@ -244,10 +253,7 @@
 
             <br><br>
             <p class="text-left" data-aos="fade-in" data-aos-delay="100">
-                From Chart 1, we can see the annual global average consumption is <b>6.4 liters</b>,
-                marked by the dashed line. It
-                equals to <b>53</b> bottles of wine per year!
-                <br><br>
+
                 From Chart 2, ranked by heavy drinking and never drink, we can learn that for <b>religious
                 reasons</b>, Middle Eastern countries like <u>Iran</u>, North
                 African countries
@@ -260,17 +266,18 @@
         </div>
 
         <div class="col-10">
+            <div class="col" data-aos="fade-in" data-aos-delay="0">
+                <div id="barDiv" class="centervis" style="height: 15vh; width:95%">
+                </div>
+            </div>
             <div class="col" data-aos="fade-in" data-aos-delay="100">
                 <div id="mapDiv" class="centervis" style="height: 66vh; width:100%">
                 </div>
             </div>
             <div style="height:60px"></div>
+
             <div class="col" data-aos="fade-in" data-aos-delay="0">
-                <div id="barDiv" class="centervis" style="height: 20vh; width:95%">
-                </div>
-            </div>
-            <div class="col" data-aos="fade-in" data-aos-delay="0">
-                <div id="barDivGroup" class="centervis" style="margin-top:0;height: 22vh;width:95%">
+                <div id="barDivGroup" class="centervis" style="margin-top:0;height: 27vh;width:95%">
                 </div>
             </div>
         </div>
@@ -414,7 +421,7 @@
                     <div>
                         <span style="font-weight:700;margin-top:5vh;">Take a guess at the statistics!</span>
                     </div>
-                    <div style="margin-top:10px;padding-bottom: 5px">For the percentage of <span style="font-weight:500">adults reporting excessive drinking</span>:</div>
+                    <div style="margin-top:10px;padding-bottom: 5px">For <span style="font-weight:500">adults reporting excessive drinking (%)</span>:</div>
                     <div class="heatmap-question">
                         <span>Which state has the most?</span>
                         <button class='heatmap-button' id="answer-1" onClick="showAnswerOne()">show answer</button>
@@ -437,7 +444,7 @@
                         <span>%</span>
                     </div>
 
-                    <div style="margin-top:10px;padding-bottom: 5px">For the percentage of <span style="font-weight:500">driving deaths with alcohol involved </span>:</div>
+                    <div style="margin-top:10px;padding-bottom: 5px">For <span style="font-weight:500">driving deaths with alcohol involved (%)</span>:</div>
                     <div class="heatmap-question">
                         <span>Which state has the most?</span>
                         <button class='heatmap-button' id="answer-6" onClick="showAnswerSix()">show answer</button>
@@ -686,26 +693,23 @@
             <p class="text-left">
                 The impact on physical and mental health attributed to alcohol can be significant.
                 The visualization shows the <b>health conditions attributed to alcohol</b>.
-                The bar represents the corresponding <b>death number</b> caused by alcohol for that
+                The bar represents the corresponding <u>death number</u> caused by alcohol for that
                 condition per 1,000,000 people, and highlights the top deaths.
-                <br><br>
-                For example, <u>Arrhythmias</u> has the highest death toll: <u>9692</u> people per
-                million.
             </p>
             <br>
             <div class="button-container">
-                <button id='radial-dendrogram-button' type="button">Switch View</button>
+                <button id='radial-dendrogram-button' type="button">Switch to Tree Map</button>
             </div>
             <br><br>
             <p class="text-left" data-aos="fade-in" data-aos-delay="100">
-                We can see <b>multiple organs can be damaged</b> by alcohol intake, and it can
+                We can see <b>multiple organs</b> can be damaged by alcohol intake, and it can
                 eventually
-                lead to <b>the development of cancer</b>. In addition, alcohol could lead to
+                lead to the development of <b>cancer</b>. In addition, alcohol could lead to
                 injuries, accidents, and suicide due
                 to its mood-altering effect.
 
             </p>
-            <br><br>
+            <br>
             <i class="fa fa-hand-pointer-o" data-aos="fade-in" data-aos-delay="100"></i>
             <b data-aos="fade-in" data-aos-delay="100">Click the condition names to show detail.</b>
             <div style="display:inline">
@@ -716,7 +720,7 @@
             <br><br>
 
 
-            <div style="height:170px"></div>
+            <div style="height:240px"></div>
             <h4 data-aos="fade-in" data-aos-delay="0">Condition Mortalities</h4>
             <p class="text-left" data-aos="fade-in" data-aos-delay="100">
                 By calculating using "Alcohol-attributable fraction" and the number of total death
@@ -787,7 +791,7 @@
                     is ranked
                     <span style="font-weight:700;font-size:16px;color:#f93700" id="df1"> 8th </span>
                     among the 33 the risk factors that cause the most premature death
-                    <span style="font-weight:700;font-size:16px;color:#f93700 " id="df2">worldwide.</span>
+                    <u id="df2">worldwide.</u>
                     On average about
                     <span style="font-weight:700;font-size:16px; color:#f93700" id="df4">4.37%</span> of the
                     premature deaths has been caused by alcohol use in this region,
@@ -828,34 +832,24 @@
         <div style="height:80px"></div>
         <h6 data-aos="fade-in" data-aos-delay="100" >
             What's the stories of the people with the detrimental habit? </h6>
-    </div>
-    <div class="row justify-content-center align-items-center" data-aos="fade-in"
-         data-aos-delay="100">
-        <div class="col-12 justify-content-center align-items-center" id="victim-title"
-             style="height:100%; width:100%">
-            <!--<div style="text-align:center; padding: 20px 0 0 0; font-size:16px; font-weight:400; color:#bb9b64ff;">
-                <i class="fa fa-hand-pointer-o"></i>
-                <b>Hover over the decorated <span
-                    style="color:white;"> white crosses </span> to see who the victims are.</b>
-                <br> <span style="color:#757171; font-weight: 400;"> Faded crosses represent the many more victims beyond the ones whose stories are told here.</span>
-            </div>-->
-            <div style="text-align:center; padding: 20px 0 0 0; font-size:14px; font-weight:400; color:white;">
-                <b>HOW TO READ</b>
-                <div class="row justify-content-center center">
-                    <div class="col-6">
-                        <p style="text-align:center; padding: 20px 0 0 0; font-size:14px; font-weight:300; color:white; justify-self: center;">
-                            <span style="opacity:1">Each white cross represents a victim. Hover over it to read their story.</span>
-                            <span style="opacity:0.6">The faded crosses commemorate the countless other victims other than the ones whose stories are presented here.</span>
-                            <span style="opacity:1"> (Data source: selected from various news report and online obituary).</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+        <div style="height:100px" data-aos="fade-in" data-aos-delay="100" ></div>
+        <p class="text-center center" data-aos="fade-in" data-aos-delay="0" style="color:#bb9b64ff">
+            <span style="opacity:1">Selected from various news report and online obituary, each white cross represents a victim.
+                </span>
+            <span style="opacity:0.6">The faded crosses commemorate the countless other victims other than the ones whose stories are presented here.</span>
+
+            <br><br>
+        </p>
+        <b class="text-center centertext"  style="color:white" data-aos="fade-in" data-aos-delay="300" >
+            <i class="fa fa-hand-pointer-o"></i>
+            Hover over the white crosses to read their story.
+        </b>
     </div>
 
+
     <div id="victim-field" style="height:75vh; width:100%; background-color: transparent"
-         data-aos="fade-in" data-aos-delay="100"></div>
+         data-aos="fade-in" data-aos-delay="500"></div>
     <div style="height:50px"></div>
 </div>
 
@@ -1163,11 +1157,11 @@
                 and rehabilitate.
 
             </p>
-            <br/>
+            <br>
             <b class="text-center blkbgNote"><i class="fa fa-hand-pointer-o "></i>
                 Click the particles to see Sam, Odette, Leia, and Flip's stories.
             </b>
-            <br/>
+            <br>
         </div>
     </div>
 

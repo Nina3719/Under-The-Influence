@@ -1,10 +1,10 @@
 name,department,manager,number,detail
  ,Root,,,
 Brain,Organ, ,,
-Motor Function,Organ,Brain,—,
+Motor Function,Organ,Brain, ,
 Dysarthria (Slurred Speech),Organ,Motor Function,—,"Acute alcohol intoxication or being drunk is a temporary cause of dysarthria, but over time, alcohol abuse can damage the brain and may make this condition permanent."
 Motor Paralysis,Organ,Motor Function,—,"A negative side effect of drinking alcohol is the deterioration of motor skills directly through loss of muscle control, as well as indirectly through the deterioration of other capacities and senses."
-Cognition,Organ,Brain,—,The most prevalent alcohol-associated brain impairments affect visuospatial abilities and higher cognitive functioning.
+Cognition,Organ,Brain, ,The most prevalent alcohol-associated brain impairments affect visuospatial abilities and higher cognitive functioning.
 Syncope (Fainting),Organ,Cognition,—,"Drinking alcohol can cause blood vessels to expand, causing blood pressure to fall and syncope to occur. Alcohol also has a diuretic effect."
 Hallucination,Organ,Cognition,—,Alcoholic hallucinosis is a rare complication of chronic alcohol abuse characterized by predominantly auditory hallucinations that occur either during or after a period of heavy alcohol consumption. 
 Alcoholic psychosis,Organ,Cognition,146,Alcohol-induced psychotic disorder is a mental illness characterized by an episode of psychosis—hallucinations and delusions—triggered by alcohol intoxication or withdrawal. 
@@ -41,7 +41,7 @@ Pancreas,Organ, ,,
 Chronic Pancreatitis,Organ,Pancreas,84,"Repeated cases of acute pancreatitis cause irreversible damage to the pancreas, leading to chronic pancreatitis. Ongoing alcoholism is the single most important risk factor for chronic pancreatitis. "
 Acute Pancreatitis,Organ,Pancreas,244,Numerous studies have shown a correlation between alcohol consumption and risk of acute pancreatitis
 Cancer,Cancer, ,,
-Head and neck cancer,Cancer,Cancer,—,
+Head and neck cancer,Cancer,Cancer, ,
 Oropharyngeal Cancer,Cancer,Head and neck cancer,16,A large body of evidence from epidemiological studies of different designs and conducted in different populations has consistently supported that alcohol consumption is strongly associated with an increase in risk of oral and pharyngeal cancer.
 Pharyngeal Cancer,Cancer,Head and neck cancer,—,A large body of evidence from epidemiological studies of different designs and conducted in different populations has consistently supported that alcohol consumption is strongly associated with an increase in risk of oral and pharyngeal cancer.
 Laryngeal Cancer,Cancer,Head and neck cancer,253,"Alcohol and tobacco are the 2 main things that can increase your risk of developing laryngeal cancer. They're thought to contain chemicals that can damage the cells of the larynx. The more you drink or smoke, the higher your risk of developing laryngeal cancer."

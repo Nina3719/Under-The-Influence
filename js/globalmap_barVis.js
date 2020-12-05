@@ -36,7 +36,7 @@ class BarVisGlobal {
         vis.svg.append('g')
             .attr('class', 'title bar-title')
             .append('text')
-            .text('Chart 1 - Ranking of Countries in Total Alcohol Consumption/year')
+            .text('Chart 1 -  Ranking of Countries in Total Alcohol Consumption/year')
             .attr('transform', `translate(${vis.width / 2}, ${vis.height +30})`)
             .attr('text-anchor', 'middle');
 
@@ -216,7 +216,7 @@ class BarVisGlobal {
                 }
                 else {
                     if (d.total <= 6.4){
-                        return "grey"
+                        return "#5D7869"
                     }
                     else {
                         return "black"
@@ -230,9 +230,9 @@ class BarVisGlobal {
         // Create average line
         vis.average = vis.svg.append("line")
             .attr("x1",0)
-            .attr("y1",60)
+            .attr("y1",40)
             .attr("x2",vis.width)
-            .attr("y2",60)
+            .attr("y2",40)
             .style("stroke","grey")
             .style("stroke-width", "1")
             .style("stroke-dasharray",("5,5"));
@@ -245,7 +245,19 @@ class BarVisGlobal {
             .attr("fill","#6F7B7F")
             .style("stroke-width", "0")
             .attr("x", vis.width)
-            .attr("y", 75)
+            .attr("y", 55)
+            .text("Equivalent to 53 bottles of wine!")
+            .style('opacity',0.8);
+
+        // Create average label
+        vis.svg.append("text")
+            .attr("text-anchor", "end")
+            .attr("class", "label")
+            .attr("font-size","12px")
+            .attr("fill","#6F7B7F")
+            .style("stroke-width", "0")
+            .attr("x", vis.width)
+            .attr("y", 35)
             .text("Internation Average: 6.4 Liter");
 
 

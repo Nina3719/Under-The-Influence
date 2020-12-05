@@ -30,27 +30,28 @@ class MapVisGlobal {
         vis.svg = d3.select("#" + vis.parentElement).append("svg")
             //.attr("viewBox", `0 0 1550 800`)
             .attr("width", vis.width)
-            .attr("height", vis.height + 120)
+            .attr("height", vis.height + 100)
             .attr('transform', `translate (${vis.margin.left}, ${vis.margin.top})`);
 
         // add title
         vis.svg.append('g')
             .attr('class', 'title map-title')
             .append('text')
-            .text('Alcohol consumption per person, 2016')
-            .attr('transform', `translate(${vis.width / 2}, ${vis.height +70 })`)
+            .text('Map - Alcohol consumption per person, 2016')
+            .attr('transform', `translate(${vis.width / 2}, ${vis.height +60 })`)
             .attr('text-anchor', 'middle');
 
-        // vis.svg.append('g')
-        //     .attr('class', 'title map-title')
-        //     .append('text')
-        //     .text('Consumption of alcohol is measured in liters of pure alcohol per person aged 15 or older.')
-        //     .attr('transform', `translate(${vis.width / 2}, ${vis.height + 85})`)
-        //     .attr('text-anchor', 'middle');
+        vis.svg.append('g')
+            .attr('class', 'title map-title')
+            .append('text')
+            .text("Hover over the map to see each country's data")
+            .attr('transform', `translate(${vis.width / 2}, ${vis.height + 80})`)
+            .attr('text-anchor', 'middle')
+            .style('opacity',0.8);
 
         // create a projection
         vis.projection = d3.geoEckert4() // d3.geoStereographic()
-            .translate([vis.width / 2, vis.height -210 ])
+            .translate([vis.width / 2, vis.height -230 ])
             .scale(170)
 
         // define a geo generator and pass the projection to it
@@ -98,7 +99,7 @@ class MapVisGlobal {
         // ---- LEGEND ----
         vis.legend = vis.svg.append("g")
             .attr('class', 'legend')
-            .attr('transform', `translate(${vis.width /3.3}, ${vis.height + 35})`)
+            .attr('transform', `translate(${vis.width /3.3}, ${vis.height + 25})`)
 
         //Append a linearGradient element to the defs and give it a unique id
         vis.linearGradient = vis.legend.append("defs").append("linearGradient")
@@ -244,67 +245,149 @@ class MapVisGlobal {
         fillfunction();
         $("#iranbtn").mouseover(
             function(){
+                selection = "Iran";
+                myBarVisGlobal.wrangleData();
+
                 vis.svg.selectAll(".country")
                     .attr("stroke", d => d.properties.name == 'Iran' ? "black" : null)
                     .attr("stroke-width", d => d.properties.name == 'Iran' ? 1 : 0)
+
+                vis.tooltip
+                    .style("opacity", 0.85)
+                    .style("left", event.pageX + 20 + "px")
+                    .style("top", event.pageY + "px")
+                    .style("font-size", "14px")
+                    .attr('fill', "#bb9b64")
+                    .text("Iran Consumption: 1 liter")
             }
         ).mouseout(
             function(){
+                vis.tooltip
+                    .style("opacity", 0)
+                selection = "";
+                myBarVisGlobal.wrangleData();
                 fillfunction();
             }
         )
-        $("#libyabtn").mouseover(
+        $("#egyptbtn").mouseover(
             function(){
+                selection = "Egypt";
+                myBarVisGlobal.wrangleData();
+
                 vis.svg.selectAll(".country")
-                    .attr("stroke", d => d.properties.name == 'Libya' ? "black" : null)
-                    .attr("stroke-width", d => d.properties.name == 'Libya' ? 1 : 0)
+                    .attr("stroke", d => d.properties.name == 'Egypt' ? "black" : null)
+                    .attr("stroke-width", d => d.properties.name == 'Egypt' ? 1 : 0)
+
+                vis.tooltip
+                    .style("opacity", 0.85)
+                    .style("left", event.pageX + 20 + "px")
+                    .style("top", event.pageY + "px")
+                    .style("font-size", "14px")
+                    .attr('fill', "#bb9b64")
+                    .text("Egypt Consumption: 0.4 liter")
             }
         ).mouseout(
             function(){
+                vis.tooltip
+                    .style("opacity", 0)
+                selection = "";
+                myBarVisGlobal.wrangleData();
                 fillfunction();
             }
         )
         $("#indobtn").mouseover(
             function(){
+                selection = "Indonesia";
+                myBarVisGlobal.wrangleData();
                 vis.svg.selectAll(".country")
                     .attr("stroke", d => d.properties.name == 'Indonesia' ? "black" : null)
                     .attr("stroke-width", d => d.properties.name == 'Indonesia' ? 1 : 0)
+                vis.tooltip
+                    .style("opacity", 0.85)
+                    .style("left", event.pageX + 20 + "px")
+                    .style("top", event.pageY + "px")
+                    .style("font-size", "14px")
+                    .attr('fill', "#bb9b64")
+                    .text("Indonesia Consumption: 0.8 liter")
             }
         ).mouseout(
             function(){
+                vis.tooltip
+                    .style("opacity", 0)
+                selection = "";
+                myBarVisGlobal.wrangleData();
                 fillfunction();
             }
         )
         $("#gerbtn").mouseover(
             function(){
+                selection = "Germany";
+                myBarVisGlobal.wrangleData();
                 vis.svg.selectAll(".country")
                     .attr("stroke", d => d.properties.name == 'Germany' ? "black" : null)
                     .attr("stroke-width", d => d.properties.name == 'Germany' ? 1 : 0)
+                vis.tooltip
+                    .style("opacity", 0.85)
+                    .style("left", event.pageX + 20 + "px")
+                    .style("top", event.pageY + "px")
+                    .style("font-size", "14px")
+                    .attr('fill', "#bb9b64")
+                    .text("Germany Consumption: 13.4 liter")
             }
         ).mouseout(
             function(){
+                vis.tooltip
+                    .style("opacity", 0)
+                selection = "";
+                myBarVisGlobal.wrangleData();
                 fillfunction();
             }
         )
         $("#irelandbtn").mouseover(
             function(){
+                selection = "Ireland";
+                myBarVisGlobal.wrangleData();
                 vis.svg.selectAll(".country")
                     .attr("stroke", d => d.properties.name == 'Ireland' ? "black" : null)
                     .attr("stroke-width", d => d.properties.name == 'Ireland' ? 1 : 0)
+                vis.tooltip
+                    .style("opacity", 0.85)
+                    .style("left", event.pageX + 20 + "px")
+                    .style("top", event.pageY + "px")
+                    .style("font-size", "14px")
+                    .attr('fill', "#bb9b64")
+                    .text("Ireland Consumption: 13 liter")
             }
         ).mouseout(
             function(){
+                vis.tooltip
+                    .style("opacity", 0)
+                selection = "";
+                myBarVisGlobal.wrangleData();
                 fillfunction();
             }
         )
         $("#francebtn").mouseover(
             function(){
+                selection = "France";
+                myBarVisGlobal.wrangleData();
                 vis.svg.selectAll(".country")
                     .attr("stroke", d => d.properties.name == 'France' ? "black" : null)
                     .attr("stroke-width", d => d.properties.name == 'France' ? 1 : 0)
+                vis.tooltip
+                    .style("opacity", 0.85)
+                    .style("left", event.pageX + 20 + "px")
+                    .style("top", event.pageY + "px")
+                    .style("font-size", "14px")
+                    .attr('fill', "#bb9b64")
+                    .text("Ireland Consumption: 12.6 liter")
             }
         ).mouseout(
             function(){
+                vis.tooltip
+                    .style("opacity", 0)
+                selection = "";
+                myBarVisGlobal.wrangleData();
                 fillfunction();
             }
         )

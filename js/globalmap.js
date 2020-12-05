@@ -44,9 +44,6 @@ function initMainPage(allDataArray) {
 
 function categoryChange() {
     selectedCategory = $('#categorySelector').val();
-
-
-
     myMapVisGlobal.wrangleData();
     myBarVisGlobal.wrangleData();
     myBarVisGroupGlobal.wrangleData();

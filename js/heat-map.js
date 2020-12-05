@@ -723,7 +723,7 @@ class HeatMapVis {
                         <div>
                         <span style="font-weight:700;margin-top:5vh;">Take a guess at the statistics!</span>
                         </div>
-                        <div style="margin-top:10px;padding-bottom: 5px">For the percentage of <span style="font-weight:500">adults reporting excessive drinking</span>:</div>
+                        <div style="margin-top:10px;padding-bottom: 5px">For <span style="font-weight:500">adults reporting excessive drinking (%)</span>:</div>
                         <div class="heatmap-question">
                             <span>Which state has the most?</span>
                             <button class='heatmap-button' id="answer-1" onClick="showAnswerOne()">show answer</button>
@@ -746,7 +746,7 @@ class HeatMapVis {
                             <span>%</span>
                         </div>
                         
-                        <div style="margin-top:10px;padding-bottom: 5px">For the percentage of <span style="font-weight:500">driving deaths with alcohol involved </span>:</div>
+                        <div style="margin-top:10px;padding-bottom: 5px">For <span style="font-weight:500">driving deaths with alcohol involved (%)</span>:</div>
                         <div class="heatmap-question">
                             <span>Which state has the most?</span>
                             <button class='heatmap-button' id="answer-6" onClick="showAnswerSix()">show answer</button>
@@ -861,29 +861,29 @@ class HeatMapVis {
                       <p>
                         <span>In the state of</span>
                         <span id="heatmap-1"></span>
-                        <span id="heatmap-2" style="text-decoration: none;font-weight: 700;"></span>
+                        <span id="heatmap-2" style="text-decoration: underline;"></span>
                         <span>has the most</span>
                         <span id="heatmap-3">percentage of adults reporting binge or heavy drinking,</span>
                         <span>while</span>
-                        <span id="heatmap-4" style="text-decoration: none;font-weight: 700;"></span>
+                        <span id="heatmap-4" style="text-decoration: underline;"></span>
                         <span>has the least.</span>
                         <br><br>
                         <span>The percentage range in</span>
-                        <span style="text-decoration: none;font-weight: 700;" id="heatmap-5"></span>
+                        <span style="text-decoration: underline;" id="heatmap-5"></span>
                         <span>for</span>
                         <span id="heatmap-9"></span>
                         <span>is</span>
-                        <span style="text-decoration: none; font-weight: 700;" id="heatmap-6"></span>
+                        <span style="text-decoration: none;" id="heatmap-6"></span>
                         <span>-</span>
-                        <span style="text-decoration: none; font-weight: 700;" id="heatmap-7"></span>
+                        <span style="text-decoration: none;" id="heatmap-7"></span>
                         <span>, and the overall average in this state is </span>
-                        <span style="text-decoration: none; font-weight: 700;" id="heatmap-8"></span>
+                        <span style="text-decoration: none;" id="heatmap-8"></span>
                         <br><br>
-                        <span style="text-decoration: none; font-size: 25px; font-weight: 700; color:black;" id="heatmap-14"></span>
+                        <span style="text-decoration: none; font-size: 25px; font-weight: 700; color:#7f6436ff;" id="heatmap-14"></span>
                         <span style="color:#bb9b64; font-weight: 700; " id="heatmap-20"></span>
                         <span style="color:#bb9b64; font-weight: 700; " id="heatmap-15"></span>
                         <span style="color:#bb9b64; font-weight: 700; " id="heatmap-21"></span>
-                        <span style="text-decoration: none;font-size: 18px;font-weight: 700; color:black;" id="heatmap-16"></span>
+                        <span style="text-decoration: none;font-size: 18px;font-weight: 700; color:#7f6436ff;" id="heatmap-16"></span>
                         <span style="color:#bb9b64; font-weight: 700; " id="heatmap-17"></span>
                       </p>
                      `)
@@ -919,7 +919,7 @@ class HeatMapVis {
             document.getElementById('heatmap-hintDiv').innerHTML = '';
             document.getElementById('heatmap-hintDiv').innerHTML = `
             <p>
-                <i class="fa fa-hand-pointer-o"></i> <b> <span style="font-weight: 700; font-size: 20px; font-style: italic">HOVER</span> over each county name to see the stats!</b>
+                <i class="fa fa-hand-pointer-o"></i> <b>Hover over each county name to see the stats</b>
             </p>
             `;
         }
@@ -1034,85 +1034,82 @@ class HeatMapVis {
         vis.interactionHint = vis.svg.append('g')
             .attr('class','heatmap-interaction-hint')
 
-        vis.hintCircle = vis.interactionHint.append('circle')
-            .attr('id','heatmap-hint-circle')
-            .attr("cx",vis.x(vis.hintState.Longitude))
-            .attr("cy",vis.y(vis.hintState.Latitude))
-            .attr("r",12)
-            .attr('fill',"#bb9b64ff")
-            .attr("opacity",1)
-            .attr("transform","translate(" + vis.margin.left*2.4 + ',' + (vis.margin.top-4) + ')')
-
-        vis.hintIcon = vis.interactionHint.append('circle')
-            .attr('id','heatmap-icon')
-            .attr("cx",vis.x(vis.hintState.Longitude))
-            .attr("cy",vis.y(vis.hintState.Latitude))
-            .attr("r",6)
-            .attr('fill','white')
-            .attr("transform","translate(" + vis.margin.left*2.4 + ',' + (vis.margin.top -4) + ')')
+        // vis.hintCircle = vis.interactionHint.append('circle')
+        //     .attr('id','heatmap-hint-circle')
+        //     .attr("cx",vis.x(vis.hintState.Longitude))
+        //     .attr("cy",vis.y(vis.hintState.Latitude))
+        //     .attr("r",12)
+        //     .attr('fill',"#bb9b64ff")
+        //     .attr("opacity",1)
+        //     .attr("transform","translate(" + vis.margin.left*2.4 + ',' + (vis.margin.top-4) + ')')
+        //
+        // vis.hintIcon = vis.interactionHint.append('circle')
+        //     .attr('id','heatmap-icon')
+        //     .attr("cx",vis.x(vis.hintState.Longitude))
+        //     .attr("cy",vis.y(vis.hintState.Latitude))
+        //     .attr("r",6)
+        //     .attr('fill','white')
+        //     .attr("transform","translate(" + vis.margin.left*2.4 + ',' + (vis.margin.top -4) + ')')
 
         vis.interactionHint.append('text')
             .attr('class','heatmap-hint-text')
-            .attr("x",vis.x(vis.hintState.Longitude))
+            .attr("x",vis.x(vis.hintState.Longitude)-10)
             .attr("y",vis.y(vis.hintState.Latitude))
             .text("1. HOVER")
-            .attr("font-size",16)
-            .attr("font-weight",700)
-            .attr("font-style","italic")
+            .attr("font-size",15)
+            .attr("font-weight",500)
             .attr('fill','black')
             .attr("transform","translate(" + vis.margin.left*3 + ',' + (vis.margin.top + 1) + ')')
 
         vis.interactionHint.append('text')
             .attr('class','heatmap-hint-text')
-            .attr("x",vis.x(vis.hintState.Longitude))
+            .attr("x",vis.x(vis.hintState.Longitude)-10)
             .attr("y",vis.y(vis.hintState.Latitude))
-            .text("over a state/county name to see the stats!")
+            .text("over a state/county name to see the stats")
             .attr("font-size",13)
-            .attr("font-weight",500)
+            .attr("font-weight",300)
             .attr("font-style","italic")
             .attr('fill','black')
             .attr("transform","translate(" + vis.margin.left*3 + ',' + (vis.margin.top + 17) + ')')
 
         vis.interactionHint.append('text')
             .attr('class','heatmap-hint-text')
-            .attr("x",vis.x(vis.hintState.Longitude))
+            .attr("x",vis.x(vis.hintState.Longitude)-10)
             .attr("y",vis.y(vis.hintState.Latitude))
             .text("2. CLICK")
-            .attr("font-size",16)
-            .attr("font-weight",700)
-            .attr("font-style","italic")
+            .attr("font-size",15)
+            .attr("font-weight",500)
             .attr('fill','black')
             .attr("transform","translate(" + vis.margin.left*3 + ',' + (vis.margin.top + 40) + ')')
 
         vis.interactionHint.append('text')
             .attr('class','heatmap-hint-text')
-            .attr("x",vis.x(vis.hintState.Longitude))
+            .attr("x",vis.x(vis.hintState.Longitude)-10)
             .attr("y",vis.y(vis.hintState.Latitude))
-            .text("on a state name to see its individual map!")
+            .text("on a state name to see its individual map")
             .attr("font-size",13)
-            .attr("font-weight",500)
+            .attr("font-weight",300)
             .attr("font-style","italic")
             .attr('fill','black')
             .attr("transform","translate(" + vis.margin.left*3 + ',' + (vis.margin.top + 56) + ')')
 
         vis.interactionHint.append('text')
             .attr('class','heatmap-hint-text')
-            .attr("x",vis.x(vis.hintState.Longitude))
+            .attr("x",vis.x(vis.hintState.Longitude)-10)
             .attr("y",vis.y(vis.hintState.Latitude))
             .text("3. TOGGLE")
-            .attr("font-size",16)
-            .attr("font-weight",700)
-            .attr("font-style","italic")
+            .attr("font-size",15)
+            .attr("font-weight",500)
             .attr('fill','black')
             .attr("transform","translate(" + vis.margin.left*3 + ',' + (vis.margin.top + 79) + ')')
 
         vis.interactionHint.append('text')
             .attr('class','heatmap-hint-text')
-            .attr("x",vis.x(vis.hintState.Longitude))
+            .attr("x",vis.x(vis.hintState.Longitude)-10)
             .attr("y",vis.y(vis.hintState.Latitude))
-            .text("the upper right radio button to switch issues!")
+            .text("the upper right radio button to switch issues")
             .attr("font-size",13)
-            .attr("font-weight",500)
+            .attr("font-weight",300)
             .attr("font-style","italic")
             .attr('fill','black')
             .attr("transform","translate(" + vis.margin.left*3 + ',' + (vis.margin.top + 95) + ')')
