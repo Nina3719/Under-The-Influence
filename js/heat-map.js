@@ -819,7 +819,7 @@ class HeatMapVis {
             d3.select('#heatmap-hintDiv')
                 .html(`
                     <div>
-                        <div class="button-container" style="margin: 0 0 0 0;">
+                        <div class="button-container" style="margin: 3vh 0 0 0;">
                             <button id='heatmap-tutorial' type="button" style="color:black; font-size:16px" onclick="showHeatmapTutorial();">
                                 Show me how to navigate!
                             </button>
@@ -1067,7 +1067,7 @@ class HeatMapVis {
             .attr("y",vis.y(vis.hintState.Latitude))
             .text("over a state/county name to see the stats")
             .attr("font-size",13)
-            .attr("font-weight",300)
+            .attr("font-weight",400)
             .attr("font-style","italic")
             .attr('fill','black')
             .attr("transform","translate(" + vis.margin.left*3 + ',' + (vis.margin.top + 17) + ')')
@@ -1088,7 +1088,7 @@ class HeatMapVis {
             .attr("y",vis.y(vis.hintState.Latitude))
             .text("on a state name to see its individual map")
             .attr("font-size",13)
-            .attr("font-weight",300)
+            .attr("font-weight",400)
             .attr("font-style","italic")
             .attr('fill','black')
             .attr("transform","translate(" + vis.margin.left*3 + ',' + (vis.margin.top + 56) + ')')
@@ -1109,7 +1109,7 @@ class HeatMapVis {
             .attr("y",vis.y(vis.hintState.Latitude))
             .text("the upper right radio button to switch issues")
             .attr("font-size",13)
-            .attr("font-weight",300)
+            .attr("font-weight",400)
             .attr("font-style","italic")
             .attr('fill','black')
             .attr("transform","translate(" + vis.margin.left*3 + ',' + (vis.margin.top + 95) + ')')
