@@ -330,33 +330,47 @@ class DeathFactorBarChart{
         document.getElementById("df1").innerHTML = vis.deathRanking + "th";
 
 
-        vis.percentageByCountry = [];
+        // vis.percentageByCountry = [];
+        //
+        // for(let i=0; i<vis.dataCountries.length; i++){
+        //     let focusCountry = vis.riskFactorData.filter(object => object.Entity == vis.dataCountries[i]);
+        //     let focusAlcohol = 0;
+        //     let focusSum = 0;
+        //
+        //     for(let j=0; j<focusCountry.length; j++){
+        //         focusAlcohol = focusAlcohol + focusCountry[j]["Alcohol use"];
+        //     }
+        //     for(let j=0; j<vis.dataCategories.length; j++){
+        //         focusSum = focusSum + focusCountry[i][vis.dataCategories[j]];
+        //     }
+        //
+        //     vis.rawResult = parseFloat((focusAlcohol/focusSum)*100);
+        //
+        //     vis.percentageByCountry.push({
+        //         Country: vis.dataCountries[i],
+        //         SumPercentage: vis.rawResult
+        //     })
+        //
+        // }
+        //
+        // vis.percentageByCountry.sort((a,b) => {return b.SumPercentage - a.SumPercentage});
+        // vis.countryRanking = vis.percentageByCountry.findIndex(object => object.Country == vis.selectedCountry) + 1;
+        //
+        // document.getElementById("df3").innerHTML = "placing it " + vis.countryRanking + "th among the regions surveyed";
 
-        for(let i=0; i<vis.dataCountries.length; i++){
-            let focusCountry = vis.riskFactorData.filter(object => object.Entity == vis.dataCountries[i]);
-            let focusAlcohol = 0;
-            let focusSum = 0;
+        if (vis.selectedCountry !== "allCountry"){
+            vis.selectionHelperHelper = vis.riskFactorData;
+            vis.selectionHelper = vis.selectionHelperHelper.filter(object => object.Entity == vis.selectedCountry);
 
-            for(let j=0; j<focusCountry.length; j++){
-                focusAlcohol = focusAlcohol + focusCountry[j]["Alcohol use"];
-            }
-            for(let j=0; j<vis.dataCategories.length; j++){
-                focusSum = focusSum + focusCountry[i][vis.dataCategories[j]];
-            }
+            vis.selectedAlcoholDeath = vis.selectionHelper[0]["Alcohol use"]
+            vis.formatedSelectedAlcoholDeath = vis.selectedAlcoholDeath.toFixed(0);
 
-            vis.rawResult = parseFloat((focusAlcohol/focusSum)*100);
-
-            vis.percentageByCountry.push({
-                Country: vis.dataCountries[i],
-                SumPercentage: vis.rawResult
-            })
-
+            document.getElementById("death-number").innerHTML = vis.formatedSelectedAlcoholDeath;
+        }else{
+            document.getElementById("death-number").innerHTML = "2.8 million";
         }
 
-        vis.percentageByCountry.sort((a,b) => {return b.SumPercentage - a.SumPercentage});
-        vis.countryRanking = vis.percentageByCountry.findIndex(object => object.Country == vis.selectedCountry) + 1;
 
-        document.getElementById("df3").innerHTML = "placing it " + vis.countryRanking + "th among the regions surveyed";
 
     }
 
