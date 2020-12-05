@@ -1,0 +1,94 @@
+name,department,manager,number,detail
+ ,Root,,,
+Brain,Organ, ,,
+Motor Function,Organ,Brain,—,
+Dysarthria (Slurred Speech),Organ,Motor Function,—,"Acute alcohol intoxication or being drunk is a temporary cause of dysarthria, but over time, alcohol abuse can damage the brain and may make this condition permanent."
+Motor Paralysis,Organ,Motor Function,—,"A negative side effect of drinking alcohol is the deterioration of motor skills directly through loss of muscle control, as well as indirectly through the deterioration of other capacities and senses."
+Cognition,Organ,Brain,—,The most prevalent alcohol-associated brain impairments affect visuospatial abilities and higher cognitive functioning.
+Syncope (Fainting),Organ,Cognition,—,"Drinking alcohol can cause blood vessels to expand, causing blood pressure to fall and syncope to occur. Alcohol also has a diuretic effect."
+Hallucination,Organ,Cognition,—,Alcoholic hallucinosis is a rare complication of chronic alcohol abuse characterized by predominantly auditory hallucinations that occur either during or after a period of heavy alcohol consumption. 
+Alcoholic psychosis,Organ,Cognition,146,Alcohol-induced psychotic disorder is a mental illness characterized by an episode of psychosis—hallucinations and delusions—triggered by alcohol intoxication or withdrawal. 
+Neural System,Organ,Brain, ,
+Cerebral atrophy,Organ,Neural System,—,"Increased alcohol intake is associated with damage to brain regions including the frontal lobe, limbic system, and cerebellum, with widespread cerebral atrophy, or brain shrinkage caused by neuron degeneration. "
+Alcoholic polyneuropathy,Organ,Neural System,1.8,"Prolonged exposure to heavy alcohol use can damage these nerves, which can result in a number of uncomfortable and potentially-dangerous symptoms. Nerve damage that is caused by or related to alcohol abuse is known as alcoholic neuropathy, or polyneuropathy when multiple nerves are affected."
+Epilepsy,Organ,Neural System,59,Many people with epilepsy are at a high risk of seizures after drinking three or more alcoholic beverages. 
+"Stroke, hemorrhagic",Organ,Neural System,361,"Alcohol may increase the risk of hemorrhagic stroke. It is caused by a blood clot blocking the flow of blood and oxygen from reaching the brain. A hemorrhagic stroke occurs either when an aneurysm bursts, or a weakened blood vessel leaks."
+"Stroke, ischemic",Organ,Neural System,59,"Previous research suggests that regular heavy alcohol consumption increases the risk for ischemic stroke, whereas frequent light to moderate alcohol intake may decrease the risk. However, the risk of ischemic stroke associated with transient exposure to alcohol remains unclear."
+Heart,Organ, ,,
+Arrhythmias,Organ,Heart,9692,"The researchers concluded that acute alcohol consumption is associated with heart arrhythmias and sinus tachycardia in particular. They say this may lead to more serious heart rhythms problems, such as atrial fibrillation, though this was only present in less than 1% of each group."
+Stroke,Organ,Heart,—,"Atrial fibrillation and alcohol Drinking excessive amounts of alcohol can trigger atrial fibrillation – a type of irregular heartbeat. Atrial fibrillation increases your risk of stroke by five times, because it can cause blood clots to form in the heart. If these clots move up into the brain, it can lead to stroke."
+Hypertension (blood pressure),Organ,Heart,368,"Drinking too much alcohol can raise blood pressure to unhealthy levels. Having more than three drinks in one sitting temporarily increases your blood pressure, but repeated binge drinking can lead to long-term increases."
+Alcoholic cardiomyopathy,Organ,Heart,257,"Alcohol cardiomyopathy, a form of dilated cardiomyopathy, is a condition that leads to heart failure as a result of chronic alcohol abuse. Heart failure occurs when the heart can no longer pump enough blood to meet the body's needs."
+Ischemic heart disease,Organ,Heart,92,"One of the most important disease outcomes causally related to alcohol is ischemic heart disease (IHD), the most common cause of death in many countries, with growing importance from a global perspective. However, the relation between alcohol consumption and IHD is complex."
+Lung,Organ, ,,
+Tuberculosis,Organ,Lung,—,"People with healthy immune systems may come in contact with tuberculosis bacteria, but your immune system will be able to fight off the infection easily. Alcohol and drug abuse is associated with damage to the immune system, especially over years of addiction and substance abuse."
+Pneumonia,Organ,Lung,—,"Pneumonia is a form of acute respiratory infection that affects the lung parenchyma and oxygenation. When a patient with pneumonia is an alcoholic, the mortality rate exceeds by 50% if they are placed into intensive care (ICU)."
+Liver,Organ, ,,
+Steatosis,Organ,Liver,—,"Fatty liver (steatosis) is the earliest, most common response of the liver to moderate or large doses (i.e. binge drinking) of alcohol as well as to chronic ethanol consumption."
+Chronic hepatitis,Organ,Liver,1,"Alcoholic hepatitis is a diseased, inflammatory condition of the liver caused by heavy alcohol consumption over an extended period of time. It's also aggravated by binge drinking and ongoing alcohol use."
+Fibrosis,Organ,Liver,—,"Alcohol causes inflammation in the liver, causing more fibrosis. In a person with a chronic liver disease (such as hepatitis B or C), alcohol causes even more damage than it would in patients without those other liver diseases."
+Alcoholic liver disease,Organ,Liver,3757,Alcohol-related liver disease (ARLD) is caused by damage to the liver from years of excessive drinking. Years of alcohol abuse can cause the liver to become inflamed and swollen. 
+Liver cirrhosis,Organ,Liver,35,"Alcoholic cirrhosis is an advanced stage of alcoholic liver disease that causes your liver to become stiff, swollen, and barely able to do its job."
+Portal hypertension,Organ,Liver,123,"Portal hypertension is a common complication of cirrhosis and, less commonly, alcoholic hepatitis. It occurs when the blood pressure inside your liver has risen to a potentially serious level. When the liver becomes severely scarred, it's harder for blood to move through it."
+Stomach,Organ, ,,
+Bloating,Organ,Stomach,—,"Besides weight gain, alcohol can also lead to irritation of your gastrointestinal tract, which can cause bloating. Alcohol is an inflammatory substance, meaning it tends to cause swelling in the body."
+Ulcers,Organ,Stomach,—,"Alcohol abuse can contribute to a painful sore in the stomach. Whether or not drinking is causing a person's ulcer, science has concluded that drinking doesn't help an ulcer heal."
+Alcoholic gastritis,Organ,Stomach,15,"Alcoholic gastritis is when alcohol damages the stomach lining and can cause a variety of symptoms from abdominal pain to vomiting. Alcoholic gastritis may not always present immediate symptoms, but over time, it can eat away at the body's digestive tract."
+Esophageal varices,Organ,Stomach,30,"Most often, the more severe your liver disease, the more likely esophageal varices are to bleed. Continued alcohol use. Your risk of variceal bleeding is far greater if you continue to drink than if you stop, especially if your disease is alcohol related."
+Gastroesophageal hemorrhage,Organ,Stomach,485,"Patients with high alcohol consumption are widely at risk for gastrointestinal bleeding within the upper digestive tract, which can result in death. Alcohol also accelerates the development of gastritis, which is an inflammation of the stomach lining."
+Aspiration,Organ,Stomach,74,"At high concentrations of alcohol in the body, the muscles that control the epiglottis become slow to react or even paralyzed and any food that is vomited up from the stomach may find its way back down into the breathing tube, especially if one is taking in a breath (aspiration)."
+Pancreas,Organ, ,,
+Chronic Pancreatitis,Organ,Pancreas,84,"Repeated cases of acute pancreatitis cause irreversible damage to the pancreas, leading to chronic pancreatitis. Ongoing alcoholism is the single most important risk factor for chronic pancreatitis. "
+Acute Pancreatitis,Organ,Pancreas,244,Numerous studies have shown a correlation between alcohol consumption and risk of acute pancreatitis
+Cancer,Cancer, ,,
+Head and neck cancer,Cancer,Cancer,—,
+Oropharyngeal Cancer,Cancer,Head and neck cancer,16,A large body of evidence from epidemiological studies of different designs and conducted in different populations has consistently supported that alcohol consumption is strongly associated with an increase in risk of oral and pharyngeal cancer.
+Pharyngeal Cancer,Cancer,Head and neck cancer,—,A large body of evidence from epidemiological studies of different designs and conducted in different populations has consistently supported that alcohol consumption is strongly associated with an increase in risk of oral and pharyngeal cancer.
+Laryngeal Cancer,Cancer,Head and neck cancer,253,"Alcohol and tobacco are the 2 main things that can increase your risk of developing laryngeal cancer. They're thought to contain chemicals that can damage the cells of the larynx. The more you drink or smoke, the higher your risk of developing laryngeal cancer."
+Esophageal Cancer,Cancer,Cancer,167,"The more alcohol someone drinks, the higher their chance of getting esophageal cancer. Alcohol increases the risk of squamous cell carcinoma more than the risk of adenocarcinoma. Smoking combined with drinking alcohol raises the risk of the squamous cell type of esophageal cancer much more than using either alone."
+Liver Cancer,Cancer,Cancer,1934,"Long-term alcohol use has been linked to an increased risk of liver cancer. Regular, heavy alcohol use can damage the liver, leading to inflammation and scarring, which might be why it raises the risk of liver cancer."
+Breast Cancer,Cancer,Cancer,128,"Alcohol can increase levels of estrogen and other hormones associated with hormone-receptor-positive breast cancer. Alcohol also may increase breast cancer risk by damaging DNA in cells. Compared to women who don't drink at all, women who have three alcoholic drinks per week have a 15% higher risk of breast cancer."
+Colorectal Cancer,Cancer,Cancer, ,"Alcohol use has been linked with a higher risk of cancers of the colon and rectum. The evidence for this is generally stronger in men than in women, but studies have found the link in both sexes."
+Prostate Cancer,Cancer,Cancer,671,"Men who drank at least seven drinks per week between ages 15 to 49 years had a more than threefold greater likelihood for developing high-grade prostate cancer than men who did not drink, according to published findings."
+Immune System,System, ,,
+Pneumonia,System,Immune System,—,Regular moderate alcohol intake is not associated with increased risk of hospitalisation for pneumonia. High weekly alcohol consumption in males and infrequent heavy drinking in both sexes may increase pneumonia risk.
+Tuberculosis,System,Immune System,—,"Alcohol and drug abuse is associated with damage to the immune system, especially over years of addiction and substance abuse. Tuberculosis is one of many harmful infections that you may contract if you drink too much over many years, or if you have been exposed to TB and it has been suppressed for years."
+Circulatory System,System, ,,
+Fatigue,System,Circulatory System,—,"Alcohol's sedative quality can rob you of energy in another way. Drinking wine, beer, or hard liquor during the day can make you feel drowsy or lethargic."
+Anemia,System,Circulatory System,—,"Alcohol can cause anemia in a few different ways. Heavy drinking has been linked to a decrease in red blood cell production, as well as the loss of existing red blood cells from damage to the heart, internal inflammation, and a lowered immune system."
+Diabetes complications,System,Circulatory System,—,"Heavy drinking, particularly in diabetics, also can cause the accumulation of certain acids in the blood that may result in severe health consequences. "
+Paresthesia,System,Circulatory System,—,"Alcohol can be toxic to nerve tissue. People who drink too much may start to feel pain and tingling in their limbs. This is known as alcoholic neuropathy. In people with alcoholic neuropathy, the peripheral nerves have been damaged by too much alcohol use."
+Excessive blood alcohol level,System,Circulatory System,1.8,"Excessive blood alcohol, under this statute, is a blood alcohol concentration of 0.15 or higher."
+Alcohol poisoning,System,Circulatory System,75,"An alcohol overdose occurs when there is so much alcohol in the bloodstream that areas of the brain controlling basic life-support functions—such as breathing, heart rate, and temperature control—begin to shut down."
+Reproduction System,System, ,,
+Infertility,System,Reproduction System,—,"Women who drink large amounts of alcohol (seven or more drinks a week or more than three drinks on one occasion) are more likely to have heavy or irregular periods and fertility problems. Alcohol can also affect ovulation, which can make it difficult to conceive."
+Sexual dysfunction,System,Reproduction System,—,"Dehydration causes decreased blood volume and increased angiotensin, a hormone associated with erectile dysfunction."
+Birth defects,System,Reproduction System,—,"Maternal consumption of alcohol (ethanol) during pregnancy can result in a continuum of embryonic developmental abnormalities that vary depending on the severity, duration, and frequency of exposure of ethanol during gestation."
+Low birthweight,System,Reproduction System,—,"Maternal consumption of alcohol (ethanol) during pregnancy can result in a continuum of embryonic developmental abnormalities that vary depending on the severity, duration, and frequency of exposure of ethanol during gestation."
+Prematurity,System,Reproduction System,—,"Maternal consumption of alcohol (ethanol) during pregnancy can result in a continuum of embryonic developmental abnormalities that vary depending on the severity, duration, and frequency of exposure of ethanol during gestation."
+Skeletal System,System, ,,
+Thinning bones,System,Skeletal System,—,"Human and animal studies clearly demonstrate that chronic, heavy alcohol consumption compromises bone health and increases the risk of osteoporosis. In particular, heavy alcohol use decreases bone density and weakens bones' mechanical properties."
+Muscular System,System, ,,
+Muscle cramps,System,Muscular System,—,Research shows that heavy drinking can lead to cramping by causing structural changes in the skeletal muscle. 
+Nutrition,System, ,,
+Malnutrition,System,Nutrition,—,"Excessive alcohol consumption can satisfy caloric requirements, but easily leads to malnutrition and anemia. "
+Behavior,Behavior, ,,
+Behavioral change,Behavior,Behavior,—,"Drinking alcohol clearly has important effect on social behaviors, such as increasing aggression, self-disclosure, sexual adventuresomeness, and so on."
+Alcohol use disorder,Behavior,Behavior,251,An alcohol use disorder (AUD) is drinking that causes distress and harm. AUD can range from mild to severe (alcoholism). 
+Other,Other, ,,
+Air space transport,Other,Other,35,FAA regulations prohibit passengers from drinking alcohol on board the aircraft unless it is served by the air carrier.
+Child maltreatment,Other,Other,47,"A number of studies have established that alcohol is a significant contributory factor to child maltreatment, and many show that being maltreated as a child is associated with marked increases in the risk of hazardous or harmful drinking in later life."
+Drowning,Other,Other,281,Alcohol contributes to at least 20 per cent of all adult drowning deaths every year.
+Fall injuries,Other,Other,2318," Falls and burns from fires are other common injuries resulting from alcohol consumption. In particular, falls are the leading cause of nonfatal injury in the US."
+Fire injuries,Other,Other,381,Fires are the fourth leading cause of unintentional injuries; studies indicate that up to 40% of residential fire death victims are alcohol impaired.
+Firearm injuries,Other,Other,37,"A large group of case-series studies showed that, on average, over one third of firearm injury decedents in the United States (homicides and suicides) had acutely consumed any amount of alcohol prior to their death and that over one fourth of these decedents had heavily consumed alcohol prior to their death."
+Homicide      ,Other,Other,2039,"Alcohol is involved in more homicides across the United States compared to other substances, like heroin and cocaine. In fact, about 40 percent of convicted murderers had used alcohol before or during the crime."
+Hypothermia,Other,Other,65,"Alcohol may make your body feel warm inside, but it causes your blood vessels to expand, resulting in more rapid heat loss from the surface of your skin. The body's natural shivering response is diminished in people who've been drinking alcohol."
+MV non-traffic crashes,Other,Other,59,Alcohol impairs motor and cognitive skill and can cause non-traffic crashes.
+MV traffic crashes - men,Other,Other,2722,"In 2016, 10,497 people died in alcohol-impaired driving crashes, accounting for 28% of all traffic-related deaths in the United States. Of the 1,233 traffic deaths among children ages 0 to 14 years in 2016, 214 (17%) involved an alcohol-impaired driver."
+MV traffic crashes - women,Other,Other,812,"In 2016, 10,497 people died in alcohol-impaired driving crashes, accounting for 28% of all traffic-related deaths in the United States. Of the 1,233 traffic deaths among children ages 0 to 14 years in 2016, 214 (17%) involved an alcohol-impaired driver."
+Occupational and machine injuries,Other,Other,84,"Drinking had a significant effect on reporting a work-related injury: Those who drank alcohol on average three or more times per week had about 3.2 injuries per 10,000 person-work-days, compared with 1.9 injuries per 10,000 person-work-days for nondrinkers, representing a 70-percent increase in risk."
+Other MV crashes,Other,Other,34,"In 2016, 10,497 people died in alcohol-impaired driving crashes, accounting for 28% of all traffic-related deaths in the United States. Of the 1,233 traffic deaths among children ages 0 to 14 years in 2016, 214 (17%) involved an alcohol-impaired driver."
+Non-alcohol poisoning,Other,Other,800,Alcohol impairs motor and cognitive skill and can cause poisoning from drugs and chemicals.
+Suicide     ,Other,Other,2028,"Alcohol and suicide have a tragically close relationship. Individuals with suicidal thoughts often turn to alcohol, and alcohol increases suicidal thoughts."
+Water transport,Other,Other,34,Alcohol impairs motor and cognitive skill and can cause water accidents.

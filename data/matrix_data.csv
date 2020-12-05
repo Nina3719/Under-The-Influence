@@ -1,0 +1,37 @@
+category,division,total
+prevalence,none,66.7
+prevalence,binge,19.9
+prevalence,heavy,6.6
+prevalence,disorder,5.8
+age,12-17,401
+age,18-25,3424
+age,26-49,7387
+age,50 or Older,3607
+gender,Male,9331
+gender,Female,5488
+insurance,Private,5.7
+insurance,Medicaid/CHIP,5.9
+insurance,Other,3.1
+insurance,No Coverage,7.2
+treatment,Not Treated,12476
+treatment,Treated,2342
+Hospital - Inpatient,Hospital - Inpatient,23.7
+Hospital - Inpatient,Not,76.3
+Rehabilitation Facility - Inpatient,Not,72.7
+Rehabilitation Facility - Inpatient,Rehabilitation Facility - Inpatient,27.3
+Rehabilitation Facility - Outpatient,Not,59.7
+Rehabilitation Facility - Outpatient,Rehabilitation Facility - Outpatient,40.3
+Mental Health Center - Outpatient,Not,69.4
+Mental Health Center - Outpatient,Mental Health Center - Outpatient,30.6
+Private Doctor's Office,Not,77.8
+Private Doctor's Office,Private Doctor's Office,22.2
+Self-Help Group,Not,39.4
+Self-Help Group,Self-Help Group,60.6
+treatment location percentage,Hospital - Inpatient,23.7
+treatment location percentage,Rehabilitation Facility - Inpatient,27.3
+treatment location percentage,Rehabilitation Facility - Outpatient,40.3
+treatment location percentage,Mental Health Center - Outpatient,30.6
+treatment location percentage,Emergency Room,13.7
+treatment location percentage,Private Doctor's Office,22.2
+treatment location percentage,Self-Help Group,60.6
+treatment location percentage,Prison/Jail,6.3

@@ -1,0 +1,1930 @@
+{
+   "Afghanistan": {
+      "code": "AFG",
+      "total": 0.2,
+      "lastYear": 3.7,
+      "heavyDrinking": 1.9,
+      "noDrinking": 96.3,
+      "neverDrinking": 92.5
+   },
+   "Albania": {
+      "code": "ALB",
+      "total": 7.5,
+      "lastYear": 53.8,
+      "heavyDrinking": 11.9,
+      "noDrinking": 46.2,
+      "neverDrinking": 24.4
+   },
+   "Algeria": {
+      "code": "DZA",
+      "total": 0.9,
+      "lastYear": 9.3,
+      "heavyDrinking": 4.7,
+      "noDrinking": 90.7,
+      "neverDrinking": 81.3
+   },
+   "American Samoa": {
+      "code": "ASCA",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Andorra": {
+      "code": "AND",
+      "total": 11.3,
+      "lastYear": 68.3,
+      "heavyDrinking": 5.6,
+      "noDrinking": 31.7,
+      "neverDrinking": 12.6
+   },
+   "Angola": {
+      "code": "AGO",
+      "total": 6.4,
+      "lastYear": 35.6,
+      "heavyDrinking": 11.8,
+      "noDrinking": 64.4,
+      "neverDrinking": 52
+   },
+   "Anguilla": {
+      "code": "AIA",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Antarctica": {
+      "code": "ANT",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Antigua and Barb.": {
+      "code": "ATG",
+      "total": 7,
+      "lastYear": 66.6,
+      "heavyDrinking": 10.1,
+      "noDrinking": 33.4,
+      "neverDrinking": 15.3
+   },
+   "Argentina": {
+      "code": "ARG",
+      "total": 9.8,
+      "lastYear": 58.8,
+      "heavyDrinking": 20.4,
+      "noDrinking": 41.2,
+      "neverDrinking": 21
+   },
+   "Armenia": {
+      "code": "ARM",
+      "total": 5.5,
+      "lastYear": 64,
+      "heavyDrinking": 31.4,
+      "noDrinking": 36,
+      "neverDrinking": 23
+   },
+   "Aruba": {
+      "code": "ARU",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Ashmore and Cartier Is.": {
+      "code": "AC",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Australia": {
+      "code": "AUS",
+      "total": 10.6,
+      "lastYear": 84,
+      "heavyDrinking": 13,
+      "noDrinking": 16,
+      "neverDrinking": 10
+   },
+   "Austria": {
+      "code": "AUT",
+      "total": 11.6,
+      "lastYear": 77.4,
+      "heavyDrinking": 52.4,
+      "noDrinking": 22.6,
+      "neverDrinking": 18.1
+   },
+   "Azerbaijan": {
+      "code": "AZE",
+      "total": 0.8,
+      "lastYear": 44,
+      "heavyDrinking": 23.7,
+      "noDrinking": 56,
+      "neverDrinking": 38.7
+   },
+   "Bahamas": {
+      "code": "BHS",
+      "total": 4.4,
+      "lastYear": 55,
+      "heavyDrinking": 9.8,
+      "noDrinking": 45,
+      "neverDrinking": 24.5
+   },
+   "Bahrain": {
+      "code": "BHR",
+      "total": 1.9,
+      "lastYear": 9.8,
+      "heavyDrinking": 0.7,
+      "noDrinking": 90.2,
+      "neverDrinking": 85.6
+   },
+   "Bangladesh": {
+      "code": "BGD",
+      "total": 0,
+      "lastYear": 1.9,
+      "heavyDrinking": 1.8,
+      "noDrinking": 98.1,
+      "neverDrinking": 89.3
+   },
+   "Barbados": {
+      "code": "BRB",
+      "total": 9.6,
+      "lastYear": 68.6,
+      "heavyDrinking": 21.2,
+      "noDrinking": 31.4,
+      "neverDrinking": 12.3
+   },
+   "Belarus": {
+      "code": "BLR",
+      "total": 11.2,
+      "lastYear": 79.2,
+      "heavyDrinking": 32.7,
+      "noDrinking": 20.8,
+      "neverDrinking": 12.8
+   },
+   "Belgium": {
+      "code": "BEL",
+      "total": 12.1,
+      "lastYear": 82.3,
+      "heavyDrinking": 41.7,
+      "noDrinking": 17.7,
+      "neverDrinking": 6.2
+   },
+   "Belize": {
+      "code": "BLZ",
+      "total": 6.7,
+      "lastYear": 28.6,
+      "heavyDrinking": 8.3,
+      "noDrinking": 71.4,
+      "neverDrinking": 61.3
+   },
+   "Benin": {
+      "code": "BEN",
+      "total": 3,
+      "lastYear": 39.4,
+      "heavyDrinking": 56.6,
+      "noDrinking": 60.6,
+      "neverDrinking": 51.1
+   },
+   "Bermuda": {
+      "code": "BER",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Bhutan": {
+      "code": "BTN",
+      "total": 0.6,
+      "lastYear": 10.3,
+      "heavyDrinking": 6.6,
+      "noDrinking": 89.7,
+      "neverDrinking": 78.5
+   },
+   "Bolivia": {
+      "code": "BOL",
+      "total": 4.8,
+      "lastYear": 51.7,
+      "heavyDrinking": 8.1,
+      "noDrinking": 48.3,
+      "neverDrinking": 27.3
+   },
+   "Bosnia and Herz.": {
+      "code": "BIH",
+      "total": 6.4,
+      "lastYear": 57.2,
+      "heavyDrinking": 10.8,
+      "noDrinking": 42.8,
+      "neverDrinking": 22.4
+   },
+   "Botswana": {
+      "code": "BWA",
+      "total": 8.4,
+      "lastYear": 41.5,
+      "heavyDrinking": 17.2,
+      "noDrinking": 58.5,
+      "neverDrinking": 41.3
+   },
+   "Br. Indian Ocean Ter.": {
+      "code": "BIO",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Brazil": {
+      "code": "BRA",
+      "total": 7.8,
+      "lastYear": 57.7,
+      "heavyDrinking": 22.1,
+      "noDrinking": 42.3,
+      "neverDrinking": 21.9
+   },
+   "British Virgin Is.": {
+      "code": "BVI",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Brunei": {
+      "code": "BRN",
+      "total": 0.4,
+      "lastYear": 20.4,
+      "heavyDrinking": 2.7,
+      "noDrinking": 79.6,
+      "neverDrinking": 66
+   },
+   "Bulgaria": {
+      "code": "BGR",
+      "total": 12.7,
+      "lastYear": 67.4,
+      "heavyDrinking": 29.1,
+      "noDrinking": 32.6,
+      "neverDrinking": 14.6
+   },
+   "Burkina Faso": {
+      "code": "BFA",
+      "total": 8.2,
+      "lastYear": 38,
+      "heavyDrinking": 46.7,
+      "noDrinking": 62,
+      "neverDrinking": 50.8
+   },
+   "Burundi": {
+      "code": "BDI",
+      "total": 7.5,
+      "lastYear": 42.1,
+      "heavyDrinking": 7.1,
+      "noDrinking": 57.9,
+      "neverDrinking": 44.9
+   },
+   "Cabo Verde": {
+      "code": "CPV",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Cambodia": {
+      "code": "KHM",
+      "total": 6.7,
+      "lastYear": 38.4,
+      "heavyDrinking": 3.7,
+      "noDrinking": 61.6,
+      "neverDrinking": 49.3
+   },
+   "Cameroon": {
+      "code": "CMR",
+      "total": 8.9,
+      "lastYear": 43.2,
+      "heavyDrinking": 27.9,
+      "noDrinking": 56.8,
+      "neverDrinking": 43.8
+   },
+   "Canada": {
+      "code": "CAN",
+      "total": 8.9,
+      "lastYear": 77.1,
+      "heavyDrinking": 23.1,
+      "noDrinking": 22.9,
+      "neverDrinking": 11.1
+   },
+   "Cayman Is.": {
+      "code": "CAI",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Central African Rep.": {
+      "code": "CAF",
+      "total": 3.3,
+      "lastYear": 21.4,
+      "heavyDrinking": 7.9,
+      "noDrinking": 78.6,
+      "neverDrinking": 65.9
+   },
+   "Chad": {
+      "code": "TCD",
+      "total": 1.5,
+      "lastYear": 13.1,
+      "heavyDrinking": 5.7,
+      "noDrinking": 86.9,
+      "neverDrinking": 73.7
+   },
+   "Chile": {
+      "code": "CHL",
+      "total": 9.3,
+      "lastYear": 65.9,
+      "heavyDrinking": 7.4,
+      "noDrinking": 34.1,
+      "neverDrinking": 16.1
+   },
+   "China": {
+      "code": "CHN",
+      "total": 7.2,
+      "lastYear": 44.1,
+      "heavyDrinking": 17.3,
+      "noDrinking": 55.9,
+      "neverDrinking": 38.7
+   },
+   "Colombia": {
+      "code": "COL",
+      "total": 5.8,
+      "lastYear": 48.3,
+      "heavyDrinking": 8.6,
+      "noDrinking": 51.7,
+      "neverDrinking": 30.9
+   },
+   "Comoros": {
+      "code": "COM",
+      "total": 0.9,
+      "lastYear": 11.9,
+      "heavyDrinking": 7.2,
+      "noDrinking": 88.1,
+      "neverDrinking": 76.1
+   },
+   "Congo": {
+      "code": "COG",
+      "total": 7.8,
+      "lastYear": 28.7,
+      "heavyDrinking": 11.1,
+      "noDrinking": 71.3,
+      "neverDrinking": 62
+   },
+   "Cook Is.": {
+      "code": "CKI",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Costa Rica": {
+      "code": "CRI",
+      "total": 4.8,
+      "lastYear": 51.4,
+      "heavyDrinking": 14.8,
+      "noDrinking": 48.6,
+      "neverDrinking": 27.6
+   },
+   "Croatia": {
+      "code": "HRV",
+      "total": 8.9,
+      "lastYear": 80.5,
+      "heavyDrinking": 13.4,
+      "noDrinking": 19.5,
+      "neverDrinking": 8.1
+   },
+   "Cuba": {
+      "code": "CUB",
+      "total": 6.1,
+      "lastYear": 62.2,
+      "heavyDrinking": 10.1,
+      "noDrinking": 37.8,
+      "neverDrinking": 17.4
+   },
+   "Curaçao": {
+      "code": "CUW",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Cyprus": {
+      "code": "CYP",
+      "total": 10.8,
+      "lastYear": 85,
+      "heavyDrinking": 30.5,
+      "noDrinking": 15,
+      "neverDrinking": 6.4
+   },
+   "Czechia": {
+      "code": "CZE",
+      "total": 14.4,
+      "lastYear": 89.1,
+      "heavyDrinking": 43.6,
+      "noDrinking": 10.9,
+      "neverDrinking": 2.6
+   },
+   "Côte d'Ivoire": {
+      "code": "CIV",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Dem. Rep. Congo": {
+      "code": "COD",
+      "total": 2.6,
+      "lastYear": 27.9,
+      "heavyDrinking": 10.7,
+      "noDrinking": 72.1,
+      "neverDrinking": 62.8
+   },
+   "Denmark": {
+      "code": "DNK",
+      "total": 10.4,
+      "lastYear": 88.6,
+      "heavyDrinking": 32.2,
+      "noDrinking": 11.4,
+      "neverDrinking": 4.5
+   },
+   "Djibouti": {
+      "code": "DJI",
+      "total": 0.5,
+      "lastYear": 5.8,
+      "heavyDrinking": 1.5,
+      "noDrinking": 94.2,
+      "neverDrinking": 84.5
+   },
+   "Dominica": {
+      "code": "DMA",
+      "total": 8.2,
+      "lastYear": 59,
+      "heavyDrinking": 46.9,
+      "noDrinking": 41,
+      "neverDrinking": 20.8
+   },
+   "Dominican Rep.": {
+      "code": "DOM",
+      "total": 6.9,
+      "lastYear": 55.2,
+      "heavyDrinking": 29.6,
+      "noDrinking": 44.8,
+      "neverDrinking": 25.2
+   },
+   "Ecuador": {
+      "code": "ECU",
+      "total": 4.4,
+      "lastYear": 47.3,
+      "heavyDrinking": 8,
+      "noDrinking": 52.7,
+      "neverDrinking": 31.8
+   },
+   "Egypt": {
+      "code": "EGY",
+      "total": 0.4,
+      "lastYear": 6.5,
+      "heavyDrinking": 0.5,
+      "noDrinking": 93.5,
+      "neverDrinking": 89.7
+   },
+   "El Salvador": {
+      "code": "SLV",
+      "total": 3.7,
+      "lastYear": 44,
+      "heavyDrinking": 22.4,
+      "noDrinking": 56,
+      "neverDrinking": 34.4
+   },
+   "Eq. Guinea": {
+      "code": "GNQ",
+      "total": 11.3,
+      "lastYear": 40,
+      "heavyDrinking": 12.8,
+      "noDrinking": 60,
+      "neverDrinking": 48.7
+   },
+   "Eritrea": {
+      "code": "ERI",
+      "total": 1.3,
+      "lastYear": 43.3,
+      "heavyDrinking": 0.9,
+      "noDrinking": 56.7,
+      "neverDrinking": 51.1
+   },
+   "Estonia": {
+      "code": "EST",
+      "total": 11.6,
+      "lastYear": 65.2,
+      "heavyDrinking": 35.8,
+      "noDrinking": 34.8,
+      "neverDrinking": 17
+   },
+   "Ethiopia": {
+      "code": "ETH",
+      "total": 2.8,
+      "lastYear": 15.7,
+      "heavyDrinking": 3.2,
+      "noDrinking": 84.3,
+      "neverDrinking": 71.2
+   },
+   "Faeroe Is.": {
+      "code": "FRI",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Falkland Is.": {
+      "code": "FLI",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Fiji": {
+      "code": "FJI",
+      "total": 3,
+      "lastYear": 41.4,
+      "heavyDrinking": 26.4,
+      "noDrinking": 58.6,
+      "neverDrinking": 46
+   },
+   "Finland": {
+      "code": "FIN",
+      "total": 10.7,
+      "lastYear": 68,
+      "heavyDrinking": 53.7,
+      "noDrinking": 32,
+      "neverDrinking": 14
+   },
+   "Fr. Polynesia": {
+      "code": "PYF",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Fr. S. Antarctic Lands": {
+      "code": "FSAL",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "France": {
+      "code": "FRA",
+      "total": 12.6,
+      "lastYear": 94.8,
+      "heavyDrinking": 31,
+      "noDrinking": 5.2,
+      "neverDrinking": 2
+   },
+   "Gabon": {
+      "code": "GAB",
+      "total": 11.5,
+      "lastYear": 41.1,
+      "heavyDrinking": 12.9,
+      "noDrinking": 58.9,
+      "neverDrinking": 37.9
+   },
+   "Gambia": {
+      "code": "GMB",
+      "total": 3.8,
+      "lastYear": 11,
+      "heavyDrinking": 5,
+      "noDrinking": 89,
+      "neverDrinking": 87.9
+   },
+   "Georgia": {
+      "code": "GEO",
+      "total": 9.8,
+      "lastYear": 36.1,
+      "heavyDrinking": 25,
+      "noDrinking": 63.9,
+      "neverDrinking": 51.3
+   },
+   "Germany": {
+      "code": "DEU",
+      "total": 13.4,
+      "lastYear": 80.3,
+      "heavyDrinking": 15.6,
+      "noDrinking": 19.7,
+      "neverDrinking": 5.5
+   },
+   "Ghana": {
+      "code": "GHA",
+      "total": 2.7,
+      "lastYear": 23.3,
+      "heavyDrinking": 9.2,
+      "noDrinking": 76.7,
+      "neverDrinking": 64.1
+   },
+   "Greece": {
+      "code": "GRC",
+      "total": 10.4,
+      "lastYear": 66.2,
+      "heavyDrinking": 52.8,
+      "noDrinking": 33.8,
+      "neverDrinking": 14.7
+   },
+   "Greenland": {
+      "code": "GLD",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Grenada": {
+      "code": "GRD",
+      "total": 9.3,
+      "lastYear": 48.4,
+      "heavyDrinking": 9.2,
+      "noDrinking": 51.6,
+      "neverDrinking": 30.7
+   },
+   "Guam": {
+      "code": "GUAM",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Guatemala": {
+      "code": "GTM",
+      "total": 2.4,
+      "lastYear": 42.3,
+      "heavyDrinking": 20.2,
+      "noDrinking": 57.7,
+      "neverDrinking": 36.1
+   },
+   "Guernsey": {
+      "code": "GGY",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Guinea": {
+      "code": "GIN",
+      "total": 1.3,
+      "lastYear": 8.7,
+      "heavyDrinking": 19.2,
+      "noDrinking": 91.3,
+      "neverDrinking": 82.5
+   },
+   "Guinea-Bissau": {
+      "code": "GNB",
+      "total": 4.8,
+      "lastYear": 30,
+      "heavyDrinking": 12.3,
+      "noDrinking": 70,
+      "neverDrinking": 60.5
+   },
+   "Guyana": {
+      "code": "GUY",
+      "total": 6.3,
+      "lastYear": 59.5,
+      "heavyDrinking": 10.2,
+      "noDrinking": 40.5,
+      "neverDrinking": 20.3
+   },
+   "Haiti": {
+      "code": "HTI",
+      "total": 5.8,
+      "lastYear": 55.4,
+      "heavyDrinking": 10,
+      "noDrinking": 44.6,
+      "neverDrinking": 24.2
+   },
+   "Heard I. and McDonald Is.": {
+      "code": "HIMI",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Honduras": {
+      "code": "HND",
+      "total": 4,
+      "lastYear": 47.4,
+      "heavyDrinking": 8.6,
+      "noDrinking": 52.6,
+      "neverDrinking": 31.8
+   },
+   "Hong Kong": {
+      "code": "HK",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Hungary": {
+      "code": "HUN",
+      "total": 11.4,
+      "lastYear": 81.4,
+      "heavyDrinking": 32.3,
+      "noDrinking": 18.6,
+      "neverDrinking": 6.7
+   },
+   "Iceland": {
+      "code": "ISL",
+      "total": 9.1,
+      "lastYear": 67.9,
+      "heavyDrinking": 34.9,
+      "noDrinking": 32.1,
+      "neverDrinking": 14.1
+   },
+   "India": {
+      "code": "IND",
+      "total": 5.7,
+      "lastYear": 15.1,
+      "heavyDrinking": 11,
+      "noDrinking": 84.9,
+      "neverDrinking": 74.2
+   },
+   "Indian Ocean Ter.": {
+      "code": "IOT",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Indonesia": {
+      "code": "IDN",
+      "total": 0.8,
+      "lastYear": 8.1,
+      "heavyDrinking": 31.9,
+      "noDrinking": 91.9,
+      "neverDrinking": 82.1
+   },
+   "Iran": {
+      "code": "IRN",
+      "total": 1,
+      "lastYear": 4.2,
+      "heavyDrinking": 0.4,
+      "noDrinking": 95.8,
+      "neverDrinking": 93.2
+   },
+   "Iraq": {
+      "code": "IRQ",
+      "total": 0.4,
+      "lastYear": 5.4,
+      "heavyDrinking": 0.4,
+      "noDrinking": 94.6,
+      "neverDrinking": 90.8
+   },
+   "Ireland": {
+      "code": "IRL",
+      "total": 13,
+      "lastYear": 80.9,
+      "heavyDrinking": 48.2,
+      "noDrinking": 19.1,
+      "neverDrinking": 6.7
+   },
+   "Isle of Man": {
+      "code": "IOM",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Israel": {
+      "code": "ISR",
+      "total": 3.8,
+      "lastYear": 51.9,
+      "heavyDrinking": 14.8,
+      "noDrinking": 48.1,
+      "neverDrinking": 41.3
+   },
+   "Italy": {
+      "code": "ITA",
+      "total": 7.5,
+      "lastYear": 67.6,
+      "heavyDrinking": 6.2,
+      "noDrinking": 32.4,
+      "neverDrinking": 25.7
+   },
+   "Jamaica": {
+      "code": "JAM",
+      "total": 4.2,
+      "lastYear": 45.8,
+      "heavyDrinking": 15,
+      "noDrinking": 54.2,
+      "neverDrinking": 32.4
+   },
+   "Japan": {
+      "code": "JPN",
+      "total": 8,
+      "lastYear": 68.9,
+      "heavyDrinking": 25.3,
+      "noDrinking": 31.1,
+      "neverDrinking": 12
+   },
+   "Jersey": {
+      "code": "JS",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Jordan": {
+      "code": "JOR",
+      "total": 0.7,
+      "lastYear": 4.7,
+      "heavyDrinking": 0.4,
+      "noDrinking": 95.3,
+      "neverDrinking": 92.8
+   },
+   "Kazakhstan": {
+      "code": "KAZ",
+      "total": 7.7,
+      "lastYear": 39.4,
+      "heavyDrinking": 19.9,
+      "noDrinking": 60.6,
+      "neverDrinking": 48.3
+   },
+   "Kenya": {
+      "code": "KEN",
+      "total": 3.4,
+      "lastYear": 22.7,
+      "heavyDrinking": 5.2,
+      "noDrinking": 77.3,
+      "neverDrinking": 64.6
+   },
+   "Kiribati": {
+      "code": "KIR",
+      "total": 0.4,
+      "lastYear": 31,
+      "heavyDrinking": 8.1,
+      "noDrinking": 69,
+      "neverDrinking": 57.1
+   },
+   "Kosovo": {
+      "code": "KVX",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Kuwait": {
+      "code": "KWT",
+      "total": 0,
+      "lastYear": 9.7,
+      "heavyDrinking": 4.3,
+      "noDrinking": 90.3,
+      "neverDrinking": 79.3
+   },
+   "Kyrgyzstan": {
+      "code": "KGZ",
+      "total": 6.2,
+      "lastYear": 38.2,
+      "heavyDrinking": 20.2,
+      "noDrinking": 61.8,
+      "neverDrinking": 49.4
+   },
+   "Laos": {
+      "code": "LAO",
+      "total": 10.4,
+      "lastYear": 47.9,
+      "heavyDrinking": 30.5,
+      "noDrinking": 52.1,
+      "neverDrinking": 31.3
+   },
+   "Latvia": {
+      "code": "LVA",
+      "total": 12.9,
+      "lastYear": 67.7,
+      "heavyDrinking": 30.9,
+      "noDrinking": 32.3,
+      "neverDrinking": 14.3
+   },
+   "Lebanon": {
+      "code": "LBN",
+      "total": 1.5,
+      "lastYear": 10.1,
+      "heavyDrinking": 0.7,
+      "noDrinking": 89.9,
+      "neverDrinking": 78.8
+   },
+   "Lesotho": {
+      "code": "LSO",
+      "total": 5,
+      "lastYear": 30,
+      "heavyDrinking": 12.8,
+      "noDrinking": 70,
+      "neverDrinking": 58.2
+   },
+   "Liberia": {
+      "code": "LBR",
+      "total": 5.8,
+      "lastYear": 30,
+      "heavyDrinking": 38.4,
+      "noDrinking": 70,
+      "neverDrinking": 63.1
+   },
+   "Libya": {
+      "code": "LBY",
+      "total": 0,
+      "lastYear": 2.4,
+      "heavyDrinking": 39.4,
+      "noDrinking": 97.6,
+      "neverDrinking": 95.4
+   },
+   "Liechtenstein": {
+      "code": "LIE",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Lithuania": {
+      "code": "LTU",
+      "total": 15,
+      "lastYear": 65.3,
+      "heavyDrinking": 56.1,
+      "noDrinking": 34.7,
+      "neverDrinking": 16.8
+   },
+   "Luxembourg": {
+      "code": "LUX",
+      "total": 13,
+      "lastYear": 93.9,
+      "heavyDrinking": 25.6,
+      "noDrinking": 6.1,
+      "neverDrinking": 1.7
+   },
+   "Macao": {
+      "code": "MACAO",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Macedonia": {
+      "code": "MKD",
+      "total": 8.1,
+      "lastYear": 57.1,
+      "heavyDrinking": 11.4,
+      "noDrinking": 42.9,
+      "neverDrinking": 22.6
+   },
+   "Madagascar": {
+      "code": "MDG",
+      "total": 1.9,
+      "lastYear": 14.1,
+      "heavyDrinking": 64.8,
+      "noDrinking": 85.9,
+      "neverDrinking": 72.6
+   },
+   "Malawi": {
+      "code": "MWI",
+      "total": 3.7,
+      "lastYear": 19.4,
+      "heavyDrinking": 40.8,
+      "noDrinking": 80.6,
+      "neverDrinking": 67.9
+   },
+   "Malaysia": {
+      "code": "MYS",
+      "total": 0.9,
+      "lastYear": 12.7,
+      "heavyDrinking": 2.5,
+      "noDrinking": 87.6,
+      "neverDrinking": 81
+   },
+   "Maldives": {
+      "code": "MDV",
+      "total": 2.7,
+      "lastYear": 9,
+      "heavyDrinking": 4.9,
+      "noDrinking": 91,
+      "neverDrinking": 80.1
+   },
+   "Mali": {
+      "code": "MLI",
+      "total": 1.3,
+      "lastYear": 3.8,
+      "heavyDrinking": 2,
+      "noDrinking": 96.2,
+      "neverDrinking": 93.6
+   },
+   "Malta": {
+      "code": "MLT",
+      "total": 8.1,
+      "lastYear": 60.6,
+      "heavyDrinking": 44.2,
+      "noDrinking": 39.4,
+      "neverDrinking": 19.2
+   },
+   "Marshall Is.": {
+      "code": "MSI",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Mauritania": {
+      "code": "MRT",
+      "total": 0,
+      "lastYear": 2.3,
+      "heavyDrinking": 1,
+      "noDrinking": 97.7,
+      "neverDrinking": 95
+   },
+   "Mauritius": {
+      "code": "MUS",
+      "total": 3.6,
+      "lastYear": 32,
+      "heavyDrinking": 40.7,
+      "noDrinking": 68,
+      "neverDrinking": 55.8
+   },
+   "Mexico": {
+      "code": "MEX",
+      "total": 6.5,
+      "lastYear": 56.9,
+      "heavyDrinking": 21.2,
+      "noDrinking": 43.1,
+      "neverDrinking": 22.6
+   },
+   "Micronesia": {
+      "code": "FSM",
+      "total": 2.5,
+      "lastYear": 40.7,
+      "heavyDrinking": 31.4,
+      "noDrinking": 59.3,
+      "neverDrinking": 46.7
+   },
+   "Moldova": {
+      "code": "MDA",
+      "total": 15.2,
+      "lastYear": 66.3,
+      "heavyDrinking": 48.6,
+      "noDrinking": 33.7,
+      "neverDrinking": 15.7
+   },
+   "Monaco": {
+      "code": "MCO",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Mongolia": {
+      "code": "MNG",
+      "total": 7.4,
+      "lastYear": 45.7,
+      "heavyDrinking": 59.1,
+      "noDrinking": 54.3,
+      "neverDrinking": 32.5
+   },
+   "Montenegro": {
+      "code": "MNE",
+      "total": 8,
+      "lastYear": 65.2,
+      "heavyDrinking": 11.1,
+      "noDrinking": 34.8,
+      "neverDrinking": 16.8
+   },
+   "Montserrat": {
+      "code": "MTS",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Morocco": {
+      "code": "MAR",
+      "total": 0.6,
+      "lastYear": 5.4,
+      "heavyDrinking": 0.5,
+      "noDrinking": 94.6,
+      "neverDrinking": 86.6
+   },
+   "Mozambique": {
+      "code": "MOZ",
+      "total": 2.4,
+      "lastYear": 17.9,
+      "heavyDrinking": 4.4,
+      "noDrinking": 82.1,
+      "neverDrinking": 69.6
+   },
+   "Myanmar": {
+      "code": "MMR",
+      "total": 4.8,
+      "lastYear": 7.9,
+      "heavyDrinking": 1.2,
+      "noDrinking": 92.1,
+      "neverDrinking": 84.1
+   },
+   "N. Cyprus": {
+      "code": "NCR",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "N. Mariana Is.": {
+      "code": "NMI",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Namibia": {
+      "code": "NAM",
+      "total": 9.8,
+      "lastYear": 39,
+      "heavyDrinking": 37.2,
+      "noDrinking": 61,
+      "neverDrinking": 48.7
+   },
+   "Nauru": {
+      "code": "NRU",
+      "total": 6,
+      "lastYear": 28.1,
+      "heavyDrinking": null,
+      "noDrinking": 71.9,
+      "neverDrinking": 62.6
+   },
+   "Nepal": {
+      "code": "NPL",
+      "total": 2,
+      "lastYear": 7.6,
+      "heavyDrinking": 5.1,
+      "noDrinking": 92.4,
+      "neverDrinking": 84.4
+   },
+   "Netherlands": {
+      "code": "NLD",
+      "total": 8.7,
+      "lastYear": 88.2,
+      "heavyDrinking": 6.6,
+      "noDrinking": 11.8,
+      "neverDrinking": 3.8
+   },
+   "New Caledonia": {
+      "code": "NCL",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "New Zealand": {
+      "code": "NZL",
+      "total": 10.7,
+      "lastYear": 79.5,
+      "heavyDrinking": 5.6,
+      "noDrinking": 20.5,
+      "neverDrinking": 11.1
+   },
+   "Nicaragua": {
+      "code": "NIC",
+      "total": 5.2,
+      "lastYear": 49.3,
+      "heavyDrinking": 27.2,
+      "noDrinking": 50.7,
+      "neverDrinking": 29.8
+   },
+   "Niger": {
+      "code": "NER",
+      "total": 0.5,
+      "lastYear": 5.3,
+      "heavyDrinking": 2.9,
+      "noDrinking": 94.7,
+      "neverDrinking": 92.4
+   },
+   "Nigeria": {
+      "code": "NGA",
+      "total": 13.4,
+      "lastYear": 43.6,
+      "heavyDrinking": 15.3,
+      "noDrinking": 56.4,
+      "neverDrinking": 39.2
+   },
+   "Niue": {
+      "code": "NIUE",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Norfolk Island": {
+      "code": "NFK",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "North Korea": {
+      "code": "PRK",
+      "total": 3.9,
+      "lastYear": 21.1,
+      "heavyDrinking": 21.1,
+      "noDrinking": 78.9,
+      "neverDrinking": 66.3
+   },
+   "Norway": {
+      "code": "NOR",
+      "total": 7.5,
+      "lastYear": 85.9,
+      "heavyDrinking": 13.9,
+      "noDrinking": 14.1,
+      "neverDrinking": 5.5
+   },
+   "Oman": {
+      "code": "OMN",
+      "total": 0.8,
+      "lastYear": 5.9,
+      "heavyDrinking": 0.5,
+      "noDrinking": 94.1,
+      "neverDrinking": 89.9
+   },
+   "Pakistan": {
+      "code": "PAK",
+      "total": 0.3,
+      "lastYear": 4,
+      "heavyDrinking": 2.1,
+      "noDrinking": 96,
+      "neverDrinking": 92.1
+   },
+   "Palau": {
+      "code": "PLW",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Palestine": {
+      "code": "PLE",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Panama": {
+      "code": "PAN",
+      "total": 7.9,
+      "lastYear": 59.8,
+      "heavyDrinking": 9.8,
+      "noDrinking": 40.2,
+      "neverDrinking": 20
+   },
+   "Papua New Guinea": {
+      "code": "PNG",
+      "total": 1.2,
+      "lastYear": 34.6,
+      "heavyDrinking": 27.8,
+      "noDrinking": 65.4,
+      "neverDrinking": 53
+   },
+   "Paraguay": {
+      "code": "PRY",
+      "total": 7.2,
+      "lastYear": 61.9,
+      "heavyDrinking": 54.8,
+      "noDrinking": 38.1,
+      "neverDrinking": 17.9
+   },
+   "Peru": {
+      "code": "PER",
+      "total": 6.3,
+      "lastYear": 55.4,
+      "heavyDrinking": 24.5,
+      "noDrinking": 44.6,
+      "neverDrinking": 25.1
+   },
+   "Philippines": {
+      "code": "PHL",
+      "total": 6.6,
+      "lastYear": 44.3,
+      "heavyDrinking": 4.2,
+      "noDrinking": 55.7,
+      "neverDrinking": 34
+   },
+   "Pitcairn Is.": {
+      "code": "PCN",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Poland": {
+      "code": "POL",
+      "total": 11.6,
+      "lastYear": 51.7,
+      "heavyDrinking": 10.2,
+      "noDrinking": 48.3,
+      "neverDrinking": 27.3
+   },
+   "Portugal": {
+      "code": "PRT",
+      "total": 12.3,
+      "lastYear": 57,
+      "heavyDrinking": 35.8,
+      "noDrinking": 43,
+      "neverDrinking": 22.5
+   },
+   "Puerto Rico": {
+      "code": "PUR",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Qatar": {
+      "code": "QAT",
+      "total": 2,
+      "lastYear": 6.7,
+      "heavyDrinking": 0.5,
+      "noDrinking": 93.3,
+      "neverDrinking": 88.7
+   },
+   "Romania": {
+      "code": "ROU",
+      "total": 12.6,
+      "lastYear": 67.6,
+      "heavyDrinking": 11.1,
+      "noDrinking": 32.4,
+      "neverDrinking": 14.3
+   },
+   "Russia": {
+      "code": "RUS",
+      "total": 11.7,
+      "lastYear": 67.8,
+      "heavyDrinking": 28.2,
+      "noDrinking": 32.2,
+      "neverDrinking": 13
+   },
+   "Rwanda": {
+      "code": "RWA",
+      "total": 9,
+      "lastYear": 44.7,
+      "heavyDrinking": 45,
+      "noDrinking": 55.3,
+      "neverDrinking": 42.8
+   },
+   "S. Geo. and the Is.": {
+      "code": "SGI",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "S. Sudan": {
+      "code": "SUDAN",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Saint Helena": {
+      "code": "SHN",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Saint Lucia": {
+      "code": "LCA",
+      "total": 9.9,
+      "lastYear": 52.2,
+      "heavyDrinking": 9.2,
+      "noDrinking": 47.8,
+      "neverDrinking": 26.9
+   },
+   "Samoa": {
+      "code": "WSM",
+      "total": 2.5,
+      "lastYear": 45.3,
+      "heavyDrinking": 37.1,
+      "noDrinking": 54.7,
+      "neverDrinking": 42.1
+   },
+   "San Marino": {
+      "code": "MRN",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Saudi Arabia": {
+      "code": "SAU",
+      "total": 0.2,
+      "lastYear": 5.8,
+      "heavyDrinking": 0.4,
+      "noDrinking": 94.2,
+      "neverDrinking": 90.1
+   },
+   "Senegal": {
+      "code": "SEN",
+      "total": 0.7,
+      "lastYear": 5.5,
+      "heavyDrinking": 3.4,
+      "noDrinking": 94.5,
+      "neverDrinking": 90.2
+   },
+   "Serbia": {
+      "code": "SRB",
+      "total": 11.1,
+      "lastYear": 66,
+      "heavyDrinking": 11.1,
+      "noDrinking": 34,
+      "neverDrinking": 16
+   },
+   "Seychelles": {
+      "code": "SYC",
+      "total": 12,
+      "lastYear": 44.2,
+      "heavyDrinking": 53.8,
+      "noDrinking": 55.8,
+      "neverDrinking": 34.1
+   },
+   "Siachen Glacier": {
+      "code": "SCG",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Sierra Leone": {
+      "code": "SLE",
+      "total": 5.7,
+      "lastYear": 44.7,
+      "heavyDrinking": 19.2,
+      "noDrinking": 55.3,
+      "neverDrinking": 42.7
+   },
+   "Singapore": {
+      "code": "SGP",
+      "total": 2,
+      "lastYear": 49.9,
+      "heavyDrinking": 8.9,
+      "noDrinking": 50.1,
+      "neverDrinking": 34.5
+   },
+   "Sint Maarten": {
+      "code": "SXM",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Slovakia": {
+      "code": "SVK",
+      "total": 11.5,
+      "lastYear": 65.8,
+      "heavyDrinking": 43.4,
+      "noDrinking": 32.4,
+      "neverDrinking": 14.4
+   },
+   "Slovenia": {
+      "code": "SVN",
+      "total": 12.6,
+      "lastYear": 67.6,
+      "heavyDrinking": 10.8,
+      "noDrinking": 67.8,
+      "neverDrinking": 55.6
+   },
+   "Solomon Is.": {
+      "code": "SLB",
+      "total": 1.4,
+      "lastYear": 32.2,
+      "heavyDrinking": 51,
+      "noDrinking": 94.6,
+      "neverDrinking": 92.5
+   },
+   "Somalia": {
+      "code": "SOM",
+      "total": 0,
+      "lastYear": 5.4,
+      "heavyDrinking": 1.6,
+      "noDrinking": 59.4,
+      "neverDrinking": 42
+   },
+   "Somaliland": {
+      "code": "SLS",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "South Africa": {
+      "code": "ZAF",
+      "total": 9.3,
+      "lastYear": 40.6,
+      "heavyDrinking": 25.6,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "South Korea": {
+      "code": "KOR",
+      "total": 10.2,
+      "lastYear": 44.8,
+      "heavyDrinking": 13.4,
+      "noDrinking": 55.2,
+      "neverDrinking": 33.5
+   },
+   "Spain": {
+      "code": "ESP",
+      "total": 10,
+      "lastYear": 68.3,
+      "heavyDrinking": 19.6,
+      "noDrinking": 31.7,
+      "neverDrinking": 12.6
+   },
+   "Sri Lanka": {
+      "code": "LKA",
+      "total": 4.3,
+      "lastYear": 18.3,
+      "heavyDrinking": 2.3,
+      "noDrinking": 81.7,
+      "neverDrinking": 69.1
+   },
+   "St-Barthélemy": {
+      "code": "BTL",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "St-Martin": {
+      "code": "SMT",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "St. Kitts and Nevis": {
+      "code": "KNA",
+      "total": 9.4,
+      "lastYear": 42.5,
+      "heavyDrinking": 50.9,
+      "noDrinking": 57.5,
+      "neverDrinking": 35.7
+   },
+   "St. Pierre and Miquelon": {
+      "code": "SPM",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "St. Vin. and Gren.": {
+      "code": "SVG",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Sudan": {
+      "code": "SDN",
+      "total": 0.5,
+      "lastYear": 11.1,
+      "heavyDrinking": 2.3,
+      "noDrinking": 88.9,
+      "neverDrinking": 75.9
+   },
+   "Suriname": {
+      "code": "SUR",
+      "total": 5.1,
+      "lastYear": 51.9,
+      "heavyDrinking": 9.3,
+      "noDrinking": 48.1,
+      "neverDrinking": 27.1
+   },
+   "Sweden": {
+      "code": "SWE",
+      "total": 9.2,
+      "lastYear": 68.8,
+      "heavyDrinking": 34.5,
+      "noDrinking": 31.2,
+      "neverDrinking": 12.1
+   },
+   "Switzerland": {
+      "code": "SWZ",
+      "total": 11.5,
+      "lastYear": 88.5,
+      "heavyDrinking": 21.2,
+      "noDrinking": 11.5,
+      "neverDrinking": 5.7
+   },
+   "Syria": {
+      "code": "SYR",
+      "total": 0.3,
+      "lastYear": 7.5,
+      "heavyDrinking": 0.6,
+      "noDrinking": 92.5,
+      "neverDrinking": 83.2
+   },
+   "São Tomé and Principe": {
+      "code": "STP",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Taiwan": {
+      "code": "TW",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Tajikistan": {
+      "code": "TJK",
+      "total": 3.3,
+      "lastYear": 9.3,
+      "heavyDrinking": 10.4,
+      "noDrinking": 90.7,
+      "neverDrinking": 82.5
+   },
+   "Tanzania": {
+      "code": "TZA",
+      "total": 9.4,
+      "lastYear": 41.9,
+      "heavyDrinking": 34,
+      "noDrinking": 58.1,
+      "neverDrinking": 45.1
+   },
+   "Thailand": {
+      "code": "THA",
+      "total": 8.3,
+      "lastYear": 29.7,
+      "heavyDrinking": 3.6,
+      "noDrinking": 70.3,
+      "neverDrinking": 59.5
+   },
+   "Timor-Leste": {
+      "code": "TLS",
+      "total": 2.1,
+      "lastYear": 7.1,
+      "heavyDrinking": 1.1,
+      "noDrinking": 92.9,
+      "neverDrinking": 84.7
+   },
+   "Togo": {
+      "code": "TGO",
+      "total": 3.1,
+      "lastYear": 62.8,
+      "heavyDrinking": 38.6,
+      "noDrinking": 37.2,
+      "neverDrinking": 33.1
+   },
+   "Tonga": {
+      "code": "TON",
+      "total": 1.5,
+      "lastYear": 33,
+      "heavyDrinking": 21.1,
+      "noDrinking": 67,
+      "neverDrinking": 54.8
+   },
+   "Trinidad and Tobago": {
+      "code": "TTO",
+      "total": 8.4,
+      "lastYear": 51.1,
+      "heavyDrinking": 39.9,
+      "noDrinking": 48.9,
+      "neverDrinking": 28
+   },
+   "Tunisia": {
+      "code": "TUN",
+      "total": 1.9,
+      "lastYear": 5.7,
+      "heavyDrinking": 0.5,
+      "noDrinking": 94.3,
+      "neverDrinking": 86.3
+   },
+   "Turkey": {
+      "code": "TUR",
+      "total": 2,
+      "lastYear": 13.8,
+      "heavyDrinking": 1.3,
+      "noDrinking": 86.2,
+      "neverDrinking": 79.6
+   },
+   "Turkmenistan": {
+      "code": "TKM",
+      "total": 5.4,
+      "lastYear": 39.3,
+      "heavyDrinking": 29.8,
+      "noDrinking": 60.7,
+      "neverDrinking": 46.6
+   },
+   "Turks and Caicos Is.": {
+      "code": "TCI",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "U.S. Virgin Is.": {
+      "code": "USVI",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Uganda": {
+      "code": "UGA",
+      "total": 9.5,
+      "lastYear": 41.3,
+      "heavyDrinking": 8.3,
+      "noDrinking": 58.7,
+      "neverDrinking": 41.4
+   },
+   "Ukraine": {
+      "code": "UKR",
+      "total": 8.6,
+      "lastYear": 68.3,
+      "heavyDrinking": 33,
+      "noDrinking": 31.7,
+      "neverDrinking": 12.5
+   },
+   "United Arab Emirates": {
+      "code": "ARE",
+      "total": 3.8,
+      "lastYear": 13,
+      "heavyDrinking": 1.1,
+      "noDrinking": 87,
+      "neverDrinking": 84.4
+   },
+   "United Kingdom": {
+      "code": "GBR",
+      "total": 11.4,
+      "lastYear": 83.9,
+      "heavyDrinking": 33.4,
+      "noDrinking": 16.1,
+      "neverDrinking": 15.1
+   },
+   "United States of America": {
+      "code": "USA",
+      "total": 9.8,
+      "lastYear": 68.9,
+      "heavyDrinking": 24.5,
+      "noDrinking": 31.1,
+      "neverDrinking": 12
+   },
+   "Uruguay": {
+      "code": "URY",
+      "total": 10.8,
+      "lastYear": 58.7,
+      "heavyDrinking": 16.1,
+      "noDrinking": 41.3,
+      "neverDrinking": 21.1
+   },
+   "Uzbekistan": {
+      "code": "UZB",
+      "total": 2.7,
+      "lastYear": 37.2,
+      "heavyDrinking": 27.5,
+      "noDrinking": 62.8,
+      "neverDrinking": 47.8
+   },
+   "Vanuatu": {
+      "code": "VUT",
+      "total": 1,
+      "lastYear": 31.8,
+      "heavyDrinking": 23.6,
+      "noDrinking": 68.2,
+      "neverDrinking": 56
+   },
+   "Vatican": {
+      "code": "VTC",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Venezuela": {
+      "code": "VEN",
+      "total": 5.6,
+      "lastYear": 59.1,
+      "heavyDrinking": 41.1,
+      "noDrinking": 40.9,
+      "neverDrinking": 20.7
+   },
+   "Vietnam": {
+      "code": "VNM",
+      "total": 8.3,
+      "lastYear": 38.3,
+      "heavyDrinking": 3.7,
+      "noDrinking": 61.7,
+      "neverDrinking": 49.3
+   },
+   "W. Sahara": {
+      "code": "SHR",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Wallis and Futuna Is.": {
+      "code": "WFI",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Yemen": {
+      "code": "YEM",
+      "total": 0.1,
+      "lastYear": 4.1,
+      "heavyDrinking": 0.3,
+      "noDrinking": 95.9,
+      "neverDrinking": 92.1
+   },
+   "Zambia": {
+      "code": "ZMB",
+      "total": 4.8,
+      "lastYear": 30.6,
+      "heavyDrinking": 7.2,
+      "noDrinking": 69.4,
+      "neverDrinking": 59.8
+   },
+   "Zimbabwe": {
+      "code": "ZWE",
+      "total": 4.8,
+      "lastYear": 39,
+      "heavyDrinking": 35.1,
+      "noDrinking": 61,
+      "neverDrinking": 49.8
+   },
+   "eSwatini": {
+      "code": "SWT",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   },
+   "Åland": {
+      "code": "ALL",
+      "total": 0,
+      "lastYear": 0,
+      "heavyDrinking": 0,
+      "noDrinking": 0,
+      "neverDrinking": 0
+   }
+}

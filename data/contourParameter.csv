@@ -1,0 +1,52 @@
+﻿State,BandwidthDrink,ThresholdDrink,BandwidthDriv,ThresholdDriv
+allStates,20,16,20,16
+Alabama,45,25,35,25
+Alaska,,,,
+Arizona,60,10,60,10
+Arkansas,40,10,40,10
+California,35,12,35,12
+Colorado,35,12,35,12
+Connecticut,100,20,100,20
+Delaware,120,20,150,20
+Florida,30,12,30,12
+Georgia,30,12,30,12
+Hawaii,,,,
+Idaho,35,12,35,12
+Illinois,40,12,40,12
+Indiana,35,12,35,12
+Iowa,30,12,30,12
+Kansas,30,12,30,12
+Kentucky,35,12,35,12
+Louisiana,35,12,35,12
+Maine,50,10,50,8
+Maryland,35,10,35,10
+Massachusetts,50,10,60,10
+Michigan,30,12,30,12
+Minnesota,35,12,45,12
+Mississippi,50,12,50,12
+Missouri,50,12,50,12
+Montana,50,12,50,12
+Nebraska,40,12,40,12
+Nevada,50,12,50,12
+New Hampshire,60,10,60,10
+New Jersey,50,10,50,10
+New Mexico,50,10,50,10
+New York,55,10,55,10
+North Carolina,40,10,40,10
+North Dakota,50,10,50,10
+Ohio,50,10,50,10
+Oklahoma,40,10,40,10
+Oregon,40,10,50,10
+Pennsylvania,40,10,40,10
+Rhode Island,80,10,80,10
+South Carolina,40,10,40,10
+South Dakota,40,10,40,10
+Tennessee,40,10,40,10
+Texas,30,10,30,10
+Utah,50,10,50,10
+Vermont,50,10,50,10
+Virginia,50,10,40,10
+Washington,40,10,40,10
+West Virginia,30,10,30,10
+Wisconsin,30,10,30,10
+Wyoming,50,10,50,10
