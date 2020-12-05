@@ -105,7 +105,7 @@ function deathFactorSelectionChange(){
         document.getElementById("death-factor-region").innerHTML = "Worldwide";
         document.getElementById("df1").innerHTML = "8th";
         document.getElementById("df2").innerHTML = "worldwide" + '.';
-        document.getElementById("df3").innerHTML = "causing more than 2.8 million premature death every year. ";
+        document.getElementById("death-number").innerHTML = "2.8 million";
         document.getElementById("df4").innerHTML = "4.37%";
     }else{
         document.getElementById("death-factor-region").innerHTML = $('#countrySelector').val();
