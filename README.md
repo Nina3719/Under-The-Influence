@@ -16,15 +16,15 @@ We hope this project could raise awareness on this detrimental global issue in h
 ## Project Structure
 - `css/`: contains library CSS files as well as our custom style.css
 - `data/`: contains the processed data files for all of our visualizations
-- `dist/`: downloaded library for ___ 
+- `dist/`: downloaded library for particle visualization
 - `images/`: contains images for reason section, backgrounds, particles, and authors
 - `img/`: contains images for death visualization, favicon, cursor, cover, etc.
 - `index.html`: main html file for our website   
 - `js/`:
     - `libraries/`: downloaded library JavaScript files, such as jQuery, D3, aos, etc.
-    - `src/`: downloaded library for ___
-    - `animation.js`: for ___
-    - `counter.js`: for ___
+    - `src/`: downloaded library for particle visualization
+    - `animation.js`: for opening animation (unused, convered to video)
+    - `counter.js`: for intro hook number counter 
     - `death-BarChart.js`: bar chart visualization for alcohol related deaths
     - `death-main.js`: main JavaScript file for death section visualizations
     - `death-timeline.js`: timeline visualization for brushing
@@ -36,9 +36,9 @@ We hope this project could raise awareness on this detrimental global issue in h
     - `globalmap_mapVis.js`: global map visualization
     - `heat-map-mapVis.js`: heat map visualization for U.S.
     - `heat-map.js`: main JavaScript file for heat map visualization
-    - `history-line-draw.js`:
-    - `history-line-simplify.js`:
-    - `history-line.js`:
+    - `history-line-draw.js`: drawing function for history trend visualization
+    - `history-line-simplify.js`: drawing line simplification for history trend visualization
+    - `history-line.js`: main JavaScript file for history trend visualization
     - `interactive-particles-text.js`: particles text visualization 
     - `interactive-particles.js`: particles visualization
     - `lodash.min.js`: imported JavaScript library
@@ -46,9 +46,9 @@ We hope this project could raise awareness on this detrimental global issue in h
     - `matrix-scroll.js`: imported JavaScript library for scrolling
     - `matrix.js`: matrix visualization
     - `polarAreaChart.js`: polar area chart visualization
-    - `radial-dendrogram-bar.js`:
-    - `radial-dendrogram.js`:
+    - `radial-dendrogram-bar.js`: main JavaScript file for health impact stacked graph 
+    - `radial-dendrogram.js`: main JavaScript file for health impacts tree map
     - `radialVis.js`: radial visualization
     - `victim-main.js`: main JavaScript file for victim story visualization
     - `victim-story.js`: victim story visualization
-- `node_modules/`: downloaded library JavaScript files
+- `node_modules/`: downloaded library JavaScript files for particle visualization
