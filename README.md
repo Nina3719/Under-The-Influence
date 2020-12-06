@@ -3,7 +3,7 @@
 **CS171-Piazza-Party**: Veronica Peitong Chen, Nina Chen, and Tiange Wang
 
 - URL to website: https://nina3719.github.io/Under-The-Influence/
-- URL to video: 
+- URL to video: https://vimeo.com/487845060 
 
 
 ## Description
