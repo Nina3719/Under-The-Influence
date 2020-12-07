@@ -51,7 +51,7 @@ class MapVisGlobal {
 
         // create a projection
         vis.projection = d3.geoEckert4() // d3.geoStereographic()
-            .translate([vis.width / 2, vis.height -200 ])
+            .translate([vis.width / 2, vis.height -210 ])
             .scale(170)
 
         // define a geo generator and pass the projection to it
