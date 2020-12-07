@@ -38,20 +38,20 @@ class MapVisGlobal {
             .attr('class', 'title map-title')
             .append('text')
             .text('Map - Alcohol consumption per person, 2016')
-            .attr('transform', `translate(${vis.width / 2}, ${vis.height +60 })`)
+            .attr('transform', `translate(${vis.width / 2}, ${vis.height +80 })`)
             .attr('text-anchor', 'middle');
 
         vis.svg.append('g')
             .attr('class', 'title map-title')
             .append('text')
             .text("Hover over the map to see each country's data")
-            .attr('transform', `translate(${vis.width / 2}, ${vis.height + 80})`)
+            .attr('transform', `translate(${vis.width / 2}, ${vis.height + 100})`)
             .attr('text-anchor', 'middle')
             .style('opacity',0.8);
 
         // create a projection
         vis.projection = d3.geoEckert4() // d3.geoStereographic()
-            .translate([vis.width / 2, vis.height -230 ])
+            .translate([vis.width / 2, vis.height -200 ])
             .scale(170)
 
         // define a geo generator and pass the projection to it
@@ -99,7 +99,7 @@ class MapVisGlobal {
         // ---- LEGEND ----
         vis.legend = vis.svg.append("g")
             .attr('class', 'legend')
-            .attr('transform', `translate(${vis.width /3.3}, ${vis.height + 25})`)
+            .attr('transform', `translate(${vis.width /3.3}, ${vis.height + 45})`)
 
         //Append a linearGradient element to the defs and give it a unique id
         vis.linearGradient = vis.legend.append("defs").append("linearGradient")
